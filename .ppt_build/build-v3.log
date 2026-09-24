@@ -1,0 +1,469 @@
+Inspect result written to file: /Users/duan.d/Documents/GitHub/igcse-0509/.codex-finalizer/candidate-directed-writing-update.pptx.inspect.ndjson
+{
+  "finalPath": "/Users/duan.d/Documents/GitHub/igcse-0509/.ppt_output/0509_Y10T1_文化认同_指导写作更新版_v3.pptx",
+  "result": {
+    "finalPath": "/Users/duan.d/Documents/GitHub/igcse-0509/.ppt_output/0509_Y10T1_文化认同_指导写作更新版_v3.pptx",
+    "receiptPath": "/Users/duan.d/Documents/GitHub/igcse-0509/.codex-finalizer/directed-writing-update-v3.validation.json",
+    "schemaVersion": "presentation-finalization.v1",
+    "finalSha256": "c0abbc32bcde6bebdf47c7b9be73fbf7184dfbb7f5dd73933a46470d442bfa00",
+    "byteCount": 7110969,
+    "packageIntegrity": {
+      "chart_count": 0,
+      "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+      "finding_count": 0,
+      "findings": [],
+      "notes_parts_skipped": 32,
+      "relationship_part_count": 69,
+      "slide_count": 32,
+      "status": "pass",
+      "exitCode": 0,
+      "findingCount": 0,
+      "warnings": []
+    },
+    "presentationLayout": {
+      "finding_count": 0,
+      "findings": [],
+      "font_policy": {
+        "checked_text_script_count": 490,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "STKaiti"
+        ],
+        "observed_font_use_counts": {
+          "STKaiti": 490
+        },
+        "passed": true,
+        "performed": true
+      },
+      "slide_count": 32,
+      "slide_size_in": [
+        13.3333,
+        7.5
+      ],
+      "warning_count": 37,
+      "warnings": [
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "14",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "15",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "5",
+          "overlap_height_in": 0.1771,
+          "overlap_width_in": 1.6667,
+          "right_object_id": "18",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "6",
+          "overlap_height_in": 0.7188,
+          "overlap_width_in": 3.4792,
+          "right_object_id": "19",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "6",
+          "overlap_height_in": 0.6146,
+          "overlap_width_in": 3.4792,
+          "right_object_id": "20",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "9",
+          "overlap_height_in": 0.75,
+          "overlap_width_in": 3.3333,
+          "right_object_id": "25",
+          "slide": 16
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "16",
+          "slide": 17
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "17",
+          "slide": 17
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "12",
+          "overlap_height_in": 0.1979,
+          "overlap_width_in": 8.8542,
+          "right_object_id": "29",
+          "slide": 17
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "17",
+          "slide": 18
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "18",
+          "slide": 18
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "5",
+          "overlap_height_in": 0.2396,
+          "overlap_width_in": 1.8542,
+          "right_object_id": "20",
+          "slide": 18
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "7",
+          "overlap_height_in": 0.2917,
+          "overlap_width_in": 1.7604,
+          "right_object_id": "21",
+          "slide": 18
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "13",
+          "overlap_height_in": 0.4375,
+          "overlap_width_in": 9.1354,
+          "right_object_id": "26",
+          "slide": 18
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "11",
+          "slide": 19
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "12",
+          "slide": 19
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "16",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "17",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "5",
+          "overlap_height_in": 0.2604,
+          "overlap_width_in": 1.6146,
+          "right_object_id": "20",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "6",
+          "overlap_height_in": 0.3125,
+          "overlap_width_in": 1.6146,
+          "right_object_id": "24",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "8",
+          "overlap_height_in": 0.4896,
+          "overlap_width_in": 3.8021,
+          "right_object_id": "25",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "9",
+          "overlap_height_in": 0.2604,
+          "overlap_width_in": 1.8229,
+          "right_object_id": "22",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "10",
+          "overlap_height_in": 0.3125,
+          "overlap_width_in": 1.8229,
+          "right_object_id": "26",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "12",
+          "overlap_height_in": 0.4792,
+          "overlap_width_in": 5.9375,
+          "right_object_id": "37",
+          "slide": 20
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "17",
+          "slide": 21
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "18",
+          "slide": 21
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "6",
+          "overlap_height_in": 0.4896,
+          "overlap_width_in": 2.8021,
+          "right_object_id": "22",
+          "slide": 21
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "10",
+          "overlap_height_in": 0.4896,
+          "overlap_width_in": 2.7917,
+          "right_object_id": "25",
+          "slide": 21
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "2",
+          "overlap_height_in": 0.4062,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "17",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "3",
+          "overlap_height_in": 0.2708,
+          "overlap_width_in": 10.9375,
+          "right_object_id": "18",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "5",
+          "overlap_height_in": 0.2188,
+          "overlap_width_in": 1.5625,
+          "right_object_id": "21",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "6",
+          "overlap_height_in": 0.5208,
+          "overlap_width_in": 1.5625,
+          "right_object_id": "22",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "8",
+          "overlap_height_in": 0.5208,
+          "overlap_width_in": 1.625,
+          "right_object_id": "28",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "10",
+          "overlap_height_in": 0.5208,
+          "overlap_width_in": 1.375,
+          "right_object_id": "31",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "10",
+          "overlap_height_in": 0.5208,
+          "overlap_width_in": 0.9479,
+          "right_object_id": "34",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "13",
+          "overlap_height_in": 0.4375,
+          "overlap_width_in": 4.0625,
+          "right_object_id": "37",
+          "slide": 22
+        },
+        {
+          "kind": "substantial_text_frame_overlap",
+          "left_object_id": "13",
+          "overlap_height_in": 0.4375,
+          "overlap_width_in": 4.2708,
+          "right_object_id": "40",
+          "slide": 22
+        }
+      ],
+      "exitCode": 0,
+      "findingCount": 0,
+      "fontPolicy": {
+        "checked_text_script_count": 490,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "STKaiti"
+        ],
+        "observed_font_use_counts": {
+          "STKaiti": 490
+        },
+        "passed": true,
+        "performed": true
+      }
+    },
+    "fontSelection": {
+      "basis": "reference",
+      "approvedFamilies": [
+        "STKaiti"
+      ],
+      "scriptFonts": {},
+      "referenceSha256": "a3693c1dd90acbda5ac6ea054aafb16ac239a527b934188f240c362f831fbbab",
+      "referenceFontsVerifiedInEncodedText": true,
+      "checked_text_script_count": 490,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "STKaiti"
+      ],
+      "observed_font_use_counts": {
+        "STKaiti": 490
+      },
+      "passed": true,
+      "performed": true
+    },
+    "firstPartyImport": {
+      "performed": true,
+      "passed": true,
+      "slideCount": 32,
+      "sha256": "c0abbc32bcde6bebdf47c7b9be73fbf7184dfbb7f5dd73933a46470d442bfa00",
+      "runtimeNodeModules": "/Users/duan.d/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+      "nodeExecutable": "/Users/duan.d/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+    },
+    "nativeTableArithmetic": {
+      "performed": true,
+      "checked_column_count": 0,
+      "checks": [],
+      "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+      "eligible_table_count": 0,
+      "finding_count": 0,
+      "findings": [],
+      "native_table_count": 2,
+      "passed": true,
+      "schema_version": "presentation-native-table-arithmetic.v1",
+      "skipped_tables": [
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 19,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 28,
+          "table": 1
+        }
+      ],
+      "slide_count": 32,
+      "warning_count": 0,
+      "warnings": []
+    },
+    "nativeChartTitles": {
+      "performed": true,
+      "checks": [],
+      "finding_count": 0,
+      "findings": [],
+      "native_chart_count": 0,
+      "native_powerpoint_verified": false,
+      "passed": true,
+      "presentation_sha256": "c0abbc32bcde6bebdf47c7b9be73fbf7184dfbb7f5dd73933a46470d442bfa00",
+      "schema_version": "presentation-native-chart-titles.v1",
+      "slide_count": 32,
+      "source_text_emitted": false,
+      "unresolved_linked_title_count": 0
+    },
+    "sourceDerivedPolicyFlags": [
+      "--expected-slide-size-emu",
+      "12192000,6858000",
+      "--validate-bullet-geometry",
+      "--validate-heading-fit",
+      "--cover-role",
+      "none",
+      "--approved-font-family",
+      "STKaiti"
+    ],
+    "nativeChartValidation": {
+      "detectedOwnerSlides": [],
+      "detectedChartCount": 0,
+      "targetApplication": null,
+      "sourceChartOwnersExplicitlyDeclared": false,
+      "validatorRan": false,
+      "passed": true
+    },
+    "sourceTemplateFidelity": {
+      "report": {
+        "coverage_ratio": 1,
+        "dimensions_match": null,
+        "generated_slide_count": 32,
+        "geometry_match": null,
+        "issue_codes": [],
+        "matched_family_count": 1,
+        "matched_generated_slide_count": 32,
+        "minimum_coverage_ratio": 0.75,
+        "passed": true,
+        "photographic_background_matched": null,
+        "photographic_background_required": false,
+        "prompt_or_slide_text_included": false,
+        "reference_family_count": 1,
+        "schema_version": "template_source_fidelity.v1",
+        "status": "passed"
+      },
+      "exitCode": 0,
+      "referenceFamilyCount": 1,
+      "matchedFamilyCount": 1,
+      "coverageRatio": 1,
+      "minimumCoverageRatio": 0.75,
+      "sourceSha256": "a3693c1dd90acbda5ac6ea054aafb16ac239a527b934188f240c362f831fbbab"
+    }
+  }
+}

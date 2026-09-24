@@ -1,0 +1,692 @@
+{"kind":"deck","id":"pr/sfx5wj","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"IGCSE 0509","textShapes":4}
+{"kind":"shape","id":"sh/547294r6","slide":1,"bbox":[0,0,610,720]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"text":"IGCSE 0509\n中文第一语言","textPreview":"IGCSE 0509 | 中文第一语言","textChars":17,"textLines":2,"bbox":[70,98,380,100]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"第一单元\n文化认同","textPreview":"第一单元 | 文化认同","textChars":9,"textLines":2,"bbox":[68,252,420,175]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"Y10 第一个学期","textPreview":"Y10 第一个学期","textChars":9,"textLines":1,"bbox":[72,505,340,36]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"text":"《假黎婆》\n指导写作\n《文化入侵故宫星巴克的伪问题》","textPreview":"《假黎婆》 | 指导写作 | 《文化入侵故宫星巴克的伪问题》","textChars":26,"textLines":3,"bbox":[72,562,400,95]}
+{"kind":"image","id":"im/dkb2xcfy","slide":1,"name":"","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"开场。请学生先看插图中的物件，再回答：什么东西能让人想起自己的家人、语言或地方？不要求学生分享私密经历。\n插图为原创 AI 插图，只用作课堂引入。"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"本单元的学习","textShapes":8}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"本单元的学习","textPreview":"本单元的学习","textChars":6,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"text":"课文学习要留下可以看见的阅读与写作证据。","textPreview":"课文学习要留下可以看见的阅读与写作证据。","textChars":20,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/b29kza94","slide":2,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"text":"读","textPreview":"读","textChars":1,"textLines":1,"bbox":[92,205,120,75]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"从细节推断人物、立场和表达效果。","textPreview":"从细节推断人物、立场和表达效果。","textChars":16,"textLines":1,"bbox":[230,221,820,60]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[92,326,1020,0]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"text":"比","textPreview":"比","textChars":1,"textLines":1,"bbox":[92,360,120,75]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"把两篇材料放在同一问题下，选择真正有用的信息。","textPreview":"把两篇材料放在同一问题下，选择真正有用的信息。","textChars":23,"textLines":1,"bbox":[230,376,840,60]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"bbox":[92,481,1020,0]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"text":"写","textPreview":"写","textChars":1,"textLines":1,"bbox":[92,514,120,75]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"让具体细节、清楚组织和恰当语气服务题目。","textPreview":"让具体细节、清楚组织和恰当语气服务题目。","textChars":20,"textLines":1,"bbox":[230,530,820,60]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"用本页说明学期产出。逐项阅读即可，不需要讲评分细则。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"文化认同","textShapes":7}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"文化认同","textPreview":"文化认同","textChars":4,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"text":"先观察，再解释；先理解差异，再提出判断。","textPreview":"先观察，再解释；先理解差异，再提出判断。","textChars":20,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/298ryl4v","slide":3,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"一个人如何认识自己？","textPreview":"一个人如何认识自己？","textChars":10,"textLines":1,"bbox":[96,210,440,54]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"谁给一个人命名？","textPreview":"谁给一个人命名？","textChars":8,"textLines":1,"bbox":[96,330,440,54]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"text":"语言、记忆和地方怎样影响归属感？","textPreview":"语言、记忆和地方怎样影响归属感？","textChars":16,"textLines":1,"bbox":[96,450,620,54]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"bbox":[780,195,0,350]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"写下一个初步回答","textPreview":"写下一个初步回答","textChars":8,"textLines":1,"bbox":[850,208,280,38]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"先写一个具体观察，\n再写你的判断。","textPreview":"先写一个具体观察， | 再写你的判断。","textChars":17,"textLines":2,"bbox":[850,295,290,110]}
+{"kind":"shape","id":"sh/m1c3mlsn","slide":3,"bbox":[850,462,280,0]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"让学生安静书写 2 分钟。可选一题作答，保留到单元末回看。"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"从现象走向意义","textShapes":9}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"从现象走向意义","textPreview":"从现象走向意义","textChars":7,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"text":"文化分析不是给人贴标签，而是寻找行为背后的经验和价值。","textPreview":"文化分析不是给人贴标签，而是寻找行为背后的经验和价值。","textChars":27,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/rm1k7yt4","slide":4,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"看见什么","textPreview":"看见什么","textChars":4,"textLines":1,"bbox":[92,204,230,35]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"text":"一顿年夜饭\n一种称呼\n一首熟悉的歌","textPreview":"一顿年夜饭 | 一种称呼 | 一首熟悉的歌","textChars":17,"textLines":3,"bbox":[92,260,245,130]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"bbox":[365,330,130,0]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"text":"怎样做","textPreview":"怎样做","textChars":3,"textLines":1,"bbox":[530,204,230,35]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"text":"在什么时间做？\n和谁一起做？\n什么反复出现？","textPreview":"在什么时间做？ | 和谁一起做？ | 什么反复出现？","textChars":22,"textLines":3,"bbox":[530,260,285,130]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"bbox":[840,330,130,0]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"意味着什么","textPreview":"意味着什么","textChars":5,"textLines":1,"bbox":[1000,204,230,35]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"text":"关系\n归属\n记忆\n价值","textPreview":"关系 | 归属 | 记忆 | 价值","textChars":11,"textLines":4,"bbox":[1000,260,180,150]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"text":"好答案会说明：哪一个文本细节支持我的解释？","textPreview":"好答案会说明：哪一个文本细节支持我的解释？","textChars":21,"textLines":1,"bbox":[92,520,980,38]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"用学生熟悉的节日、语言或家庭习惯示范。提醒学生：同一文化背景的人不一定有相同经验。"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"课文一","textShapes":4}
+{"kind":"shape","id":"sh/dgbulwnm","slide":5,"bbox":[0,0,605,720]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"text":"课文一","textPreview":"课文一","textChars":3,"textLines":1,"bbox":[66,100,220,36]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"《假黎婆》","textPreview":"《假黎婆》","textChars":5,"textLines":1,"bbox":[64,178,460,145]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"text":"人物、称呼、记忆与归属","textPreview":"人物、称呼、记忆与归属","textChars":11,"textLines":1,"bbox":[66,354,430,120]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"阅读要落到证据；写作要回应目的和受众。","textPreview":"阅读要落到证据；写作要回应目的和受众。","textChars":19,"textLines":1,"bbox":[66,554,440,40]}
+{"kind":"image","id":"im/h8juxg7q","slide":5,"name":"","bbox":[490,0,790,720]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"第 1 课导入。先不解释人物身份。请学生看画面，写下两项可以观察到的事实和一项不能从画面确定的事。\n插图为原创 AI 插图，不代表文本人物的真实肖像。"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"谁在命名她","textShapes":7}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"谁在命名她","textPreview":"谁在命名她","textChars":5,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"text":"别人给的称呼与“我”认识的人，可能并不相同。","textPreview":"别人给的称呼与“我”认识的人，可能并不相同。","textChars":22,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"text":"别人看到的她","textPreview":"别人看到的她","textChars":6,"textLines":1,"bbox":[100,205,360,42]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"text":"称呼\n外貌\n住处","textPreview":"称呼 | 外貌 | 住处","textChars":8,"textLines":3,"bbox":[120,290,245,135]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"bbox":[600,195,0,270]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"“我”认识的她","textPreview":"“我”认识的她","textChars":7,"textLines":1,"bbox":[745,205,360,42]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"动作\n语言\n共同经历","textPreview":"动作 | 语言 | 共同经历","textChars":10,"textLines":3,"bbox":[765,290,295,135]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"说一说：我们目前认为她是一个怎样的人？哪一处细节支持这个判断？","textPreview":"说一说：我们目前认为她是一个怎样的人？哪一处细节支持这个判断？","textChars":31,"textLines":1,"bbox":[100,535,1030,44]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"第 1 课。请各组先阅读指定段落，再在课本标出一个称呼和一处关系细节。"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"从细节到推断","textShapes":9}
+{"kind":"shape","id":"sh/n6x0fqlo","slide":7,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"从细节到推断","textPreview":"从细节到推断","textChars":6,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"text":"把“她很……”改成能够被同学核对的解释。","textPreview":"把“她很……”改成能够被同学核对的解释。","textChars":20,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/ydkbm5sv","slide":7,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"文本写了什么","textPreview":"文本写了什么","textChars":6,"textLines":1,"bbox":[96,210,290,34]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"text":"动作、语气、物件或称呼","textPreview":"动作、语气、物件或称呼","textChars":11,"textLines":1,"bbox":[96,272,310,70]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"bbox":[420,307,115,0]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"text":"我怎样理解","textPreview":"我怎样理解","textChars":5,"textLines":1,"bbox":[570,210,290,34]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"text":"这个细节可能暗示……","textPreview":"这个细节可能暗示……","textChars":10,"textLines":1,"bbox":[570,272,310,70]}
+{"kind":"shape","id":"sh/baxkjqlk","slide":7,"bbox":[895,307,115,0]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"text":"为什么这样理解","textPreview":"为什么这样理解","textChars":7,"textLines":1,"bbox":[1045,210,200,64]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"text":"联系上下文，说明理由。","textPreview":"联系上下文，说明理由。","textChars":11,"textLines":1,"bbox":[1045,294,180,70]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"text":"答题句：作者写“……”。这个细节显示……，因为……。","textPreview":"答题句：作者写“……”。这个细节显示……，因为……。","textChars":26,"textLines":1,"bbox":[96,495,1000,42]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"教师先示范一个不涉及标准答案的例子。学生随后从课本挑选另一个细节完成同样的三步。"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"一包盐，一斗米","textShapes":7}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"一包盐，一斗米","textPreview":"一包盐，一斗米","textChars":7,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"text":"人物的选择常常透露处境、原则与关系。","textPreview":"人物的选择常常透露处境、原则与关系。","textChars":18,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/ri9g7uhw","slide":8,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"如果是你，会怎样处理？","textPreview":"如果是你，会怎样处理？","textChars":11,"textLines":1,"bbox":[90,190,620,44]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"text":"收下\n拒绝\n留下部分\n另想办法","textPreview":"收下 | 拒绝 | 留下部分 | 另想办法","textChars":15,"textLines":4,"bbox":[100,275,250,190]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[575,185,0,310]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"text":"读完后改写你的选择","textPreview":"读完后改写你的选择","textChars":9,"textLines":1,"bbox":[690,190,400,44]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"她的行动回应了什么处境？\n她的语气怎样帮助读者理解？\n哪一个词或动作最能支持你的说法？","textPreview":"她的行动回应了什么处境？ | 她的语气怎样帮助读者理解？ | 哪一个词或动作最能支持你的说法？","textChars":43,"textLines":3,"bbox":[690,285,450,175]}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"text":"可以有不同解释，但每一种解释都要回到文本。","textPreview":"可以有不同解释，但每一种解释都要回到文本。","textChars":21,"textLines":1,"bbox":[90,548,930,34]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"第 2 课。先投票，再阅读课文。讨论时不评价人物“好不好”，只解释她为什么这样做。"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"山路上的歌","textShapes":8}
+{"kind":"shape","id":"sh/3y107axw","slide":9,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"山路上的歌","textPreview":"山路上的歌","textChars":5,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"text":"场景的变化，怎样让读者看见奶奶与“我”的不同感受？","textPreview":"场景的变化，怎样让读者看见奶奶与“我”的不同感受？","textChars":25,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"bbox":[64,150,106,5]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"bbox":[74,190,405,330]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"text":"插图位置","textPreview":"插图位置","textChars":4,"textLines":1,"bbox":[98,212,357,32]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"bbox":[124,264,305,0]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"text":"建议搜寻：\n雾气中的山路\n或树林里的人影\n\n避免使用人物肖像替代课文人物。","textPreview":"建议搜寻： | 雾气中的山路 | 或树林里的人影 |  | 避免使用人物肖像替代课文人物。","textChars":37,"textLines":5,"bbox":[108,292,337,200]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"text":"奶奶","textPreview":"奶奶","textChars":2,"textLines":1,"bbox":[590,210,160,36]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"text":"起点：\n过程：\n终点：","textPreview":"起点： | 过程： | 终点：","textChars":11,"textLines":3,"bbox":[590,275,180,145]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"text":"“我”","textPreview":"“我”","textChars":3,"textLines":1,"bbox":[900,210,160,36]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"text":"起点：\n过程：\n终点：","textPreview":"起点： | 过程： | 终点：","textChars":11,"textLines":3,"bbox":[900,275,180,145]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"替换为一张横向风景照片。图片只作情境，不承担文本证据。建议把照片裁切成左侧留出空白。"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"看得见的细节，看不见的经历","textShapes":9}
+{"kind":"shape","id":"sh/0bit8b2d","slide":10,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"看得见的细节，看不见的经历","textPreview":"看得见的细节，看不见的经历","textChars":13,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"text":"用文化冰山帮助解释山路、歌声、语言和服饰。","textPreview":"用文化冰山帮助解释山路、歌声、语言和服饰。","textChars":21,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"text":"课文细节","textPreview":"课文细节","textChars":4,"textLines":1,"bbox":[94,210,230,35]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"走山路\n唱歌\n使用的语言\n穿着","textPreview":"走山路 | 唱歌 | 使用的语言 | 穿着","textChars":15,"textLines":4,"bbox":[94,273,250,155]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"bbox":[400,328,115,0]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"text":"经验与习惯","textPreview":"经验与习惯","textChars":5,"textLines":1,"bbox":[555,210,250,35]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"哪些生活经验\n让这个行为显得自然？","textPreview":"哪些生活经验 | 让这个行为显得自然？","textChars":17,"textLines":2,"bbox":[555,282,285,100]}
+{"kind":"shape","id":"sh/s7yt4b21","slide":10,"bbox":[865,328,115,0]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"text":"可以推断的意义","textPreview":"可以推断的意义","textChars":7,"textLines":1,"bbox":[1010,210,200,72]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"text":"归属、记忆\n被忽略的自我","textPreview":"归属、记忆 | 被忽略的自我","textChars":12,"textLines":2,"bbox":[1010,290,190,100]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"text":"提醒：推断不是猜测。每一步都要带着课文细节。","textPreview":"提醒：推断不是猜测。每一步都要带着课文细节。","textChars":22,"textLines":1,"bbox":[94,535,950,36]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"让每组任选一项细节完成三层解释。课堂只接受有课文依据的推断。"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"标题与结构","textShapes":6}
+{"kind":"shape","id":"sh/ofqtgnyt","slide":11,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"text":"标题与结构","textPreview":"标题与结构","textChars":5,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"text":"“假黎婆”这个标题，保留了谁的眼光？又改变了什么？","textPreview":"“假黎婆”这个标题，保留了谁的眼光？又改变了什么？","textChars":25,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/n69grmpw","slide":11,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"text":"时间线拼图","textPreview":"时间线拼图","textChars":5,"textLines":1,"bbox":[90,195,220,38]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"童年相处\n上山唱歌\n离家求学\n再见弟弟\n扫墓回忆","textPreview":"童年相处 | 上山唱歌 | 离家求学 | 再见弟弟 | 扫墓回忆","textChars":24,"textLines":5,"bbox":[90,260,270,245]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"bbox":[475,184,0,345]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"标题再读","textPreview":"标题再读","textChars":4,"textLines":1,"bbox":[610,195,220,38]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"text":"如果题目叫《我的奶奶》，\n文章会少掉什么？\n\n称呼怎样呈现社会的眼光？\n“我”的理解怎样变化？","textPreview":"如果题目叫《我的奶奶》， | 文章会少掉什么？ |  | 称呼怎样呈现社会的眼光？ | “我”的理解怎样变化？","textChars":47,"textLines":5,"bbox":[610,260,500,245]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"第 4 课。先让学生以小组将事件排成时间线，然后回到标题。不要先给出作者意图。"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"描写：一个瞬间，看见一个人","textShapes":9}
+{"kind":"shape","id":"sh/bulo7u58","slide":12,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"text":"描写：一个瞬间，看见一个人","textPreview":"描写：一个瞬间，看见一个人","textChars":13,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"text":"把“文化”放进人物、物件、动作和环境，不写成口号。","textPreview":"把“文化”放进人物、物件、动作和环境，不写成口号。","textChars":25,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/ra943il8","slide":12,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"text":"一个人","textPreview":"一个人","textChars":3,"textLines":1,"bbox":[94,210,180,34]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"text":"谁在做什么？","textPreview":"谁在做什么？","textChars":6,"textLines":1,"bbox":[94,270,200,54]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"一个物件","textPreview":"一个物件","textChars":4,"textLines":1,"bbox":[405,210,180,34]}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"text":"什么东西留下记忆？","textPreview":"什么东西留下记忆？","textChars":9,"textLines":1,"bbox":[405,270,260,54]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"text":"一个场景","textPreview":"一个场景","textChars":4,"textLines":1,"bbox":[765,210,180,34]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"text":"时间、声音和光线怎样变化？","textPreview":"时间、声音和光线怎样变化？","textChars":13,"textLines":1,"bbox":[765,270,330,54]}
+{"kind":"shape","id":"sh/xw3q94ne","slide":12,"bbox":[94,402,1010,0]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"text":"任务：描写一位熟悉的人在一个具体场景中的样子，让读者从细节发现这个人与一种生活文化的联系。","textPreview":"任务：描写一位熟悉的人在一个具体场景中的样子，让读者从细节发现这个人与一种生活文化的联系。","textChars":45,"textLines":1,"bbox":[94,464,1010,88]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"第 5 课。投影后先给 8 分钟构思，再写开头。学生可改写自己的经验，也可从提供的虚构情境出发。"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"描写的同伴反馈","textShapes":7}
+{"kind":"shape","id":"sh/gb6x0zm9","slide":13,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"text":"描写的同伴反馈","textPreview":"描写的同伴反馈","textChars":7,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"text":"反馈要告诉作者：哪一处有效，下一步应该改哪里。","textPreview":"反馈要告诉作者：哪一处有效，下一步应该改哪里。","textChars":23,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/o3i5w3ad","slide":13,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"text":"我看见了……","textPreview":"我看见了……","textChars":6,"textLines":1,"bbox":[110,205,370,42]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"text":"“……”这一个细节让我看见\n人物、场景或关系。","textPreview":"“……”这一个细节让我看见 | 人物、场景或关系。","textChars":23,"textLines":2,"bbox":[110,285,390,90]}
+{"kind":"shape","id":"sh/32ponyts","slide":13,"bbox":[620,195,0,280]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"text":"我还想看见……","textPreview":"我还想看见……","textChars":7,"textLines":1,"bbox":[735,205,390,42]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"text":"如果补上“……”，\n读者会更理解……","textPreview":"如果补上“……”， | 读者会更理解……","textChars":18,"textLines":2,"bbox":[735,285,390,90]}
+{"kind":"textbox","id":"sh/hcfy9k3u","slide":13,"text":"最后检查：删掉“文化”二字后，文章中的人物和场景仍然成立吗？","textPreview":"最后检查：删掉“文化”二字后，文章中的人物和场景仍然成立吗？","textChars":30,"textLines":1,"bbox":[110,520,1020,42]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"交换段落。每位学生只写两条反馈，并圈出相应句子。避免“很好”“多一点细节”等泛泛评价。"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"阅读短答","textShapes":9}
+{"kind":"shape","id":"sh/a1wze9g7","slide":14,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"text":"阅读短答","textPreview":"阅读短答","textChars":4,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"text":"语言理解题通常要求理解、推断或分析表达效果。","textPreview":"语言理解题通常要求理解、推断或分析表达效果。","textChars":22,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/jepwf2pc","slide":14,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"text":"理解","textPreview":"理解","textChars":2,"textLines":1,"bbox":[95,214,170,36]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"text":"发生了什么？\n人物怎样反应？","textPreview":"发生了什么？ | 人物怎样反应？","textChars":14,"textLines":2,"bbox":[95,275,250,85]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"text":"推断","textPreview":"推断","textChars":2,"textLines":1,"bbox":[455,214,170,36]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"text":"这句话暗示什么？\n哪一个细节支持？","textPreview":"这句话暗示什么？ | 哪一个细节支持？","textChars":17,"textLines":2,"bbox":[455,275,270,85]}
+{"kind":"textbox","id":"sh/ehwvat8n","slide":14,"text":"分析","textPreview":"分析","textChars":2,"textLines":1,"bbox":[840,214,170,36]}
+{"kind":"textbox","id":"sh/c3e1gjyd","slide":14,"text":"作者怎样写？\n这给读者什么感受？","textPreview":"作者怎样写？ | 这给读者什么感受？","textChars":16,"textLines":2,"bbox":[840,275,300,85]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"text":"效果题的答案要有两部分：语言特征 + 对读者理解的影响。","textPreview":"效果题的答案要有两部分：语言特征 + 对读者理解的影响。","textChars":28,"textLines":1,"bbox":[95,500,1000,40]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"用《假黎婆》一小段或陌生现代文。先让学生标出题目动词，再独立完成其中一题。"}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"课文二","textShapes":4}
+{"kind":"shape","id":"sh/547mhg3m","slide":15,"bbox":[0,0,605,720]}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"text":"课文二","textPreview":"课文二","textChars":3,"textLines":1,"bbox":[66,100,220,36]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"text":"新加坡多种族\n政策","textPreview":"新加坡多种族 | 政策","textChars":9,"textLines":2,"bbox":[64,178,460,145]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"text":"指导写作：原因、内容与意义","textPreview":"指导写作：原因、内容与意义","textChars":13,"textLines":1,"bbox":[66,354,430,120]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"text":"围绕三个写作要求整理两则短文。","textPreview":"围绕三个写作要求整理两则短文。","textChars":15,"textLines":1,"bbox":[66,554,440,40]}
+{"kind":"image","id":"im/xs3axs76","slide":15,"name":"","bbox":[490,0,790,720]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"本节以教材《新加坡多种族政策》的两则短文为材料组。先让学生看到：这是一项指导写作练习，不是分别概括两篇短文。插图只作课堂情境。\n材料依据：用户提供的教材页面截图。\n教学重点：用 ①A1、①B1 等标注，将材料信息归入题目的三个要点。"}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"两则短文，一个题目","textShapes":30}
+{"kind":"shape","id":"sh/e1sf65o3","slide":16,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"text":"两则短文，一个题目","textPreview":"两则短文，一个题目","textChars":9,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/9kby1g7m","slide":16,"text":"短文一介绍政策设计；短文二呈现促进交流的社会实践。","textPreview":"短文一介绍政策设计；短文二呈现促进交流的社会实践。","textChars":25,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/ytkf2h8j","slide":16,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"text":"短文一","textPreview":"短文一","textChars":3,"textLines":1,"bbox":[100,205,220,40]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"text":"政策与制度\nCMIO 模式\n语言、住房、融入","textPreview":"政策与制度 | CMIO 模式 | 语言、住房、融入","textChars":22,"textLines":3,"bbox":[100,282,360,145]}
+{"kind":"shape","id":"sh/lwbyxwra","slide":16,"bbox":[620,195,0,290]}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"text":"短文二","textPreview":"短文二","textChars":3,"textLines":1,"bbox":[760,205,220,40]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"text":"社会实践\n跨族群活动\n公共假日、国民服役、种族和谐日","textPreview":"社会实践 | 跨族群活动 | 公共假日、国民服役、种族和谐日","textChars":26,"textLines":3,"bbox":[760,282,410,145]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"text":"先问：每一则短文在回答同一个问题时，能提供什么不同帮助？","textPreview":"先问：每一则短文在回答同一个问题时，能提供什么不同帮助？","textChars":28,"textLines":1,"bbox":[100,535,980,42]}
+{"kind":"shape","id":"sh/1ojy10ne","slide":16,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/gnax8v6t","slide":16,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"text":"指导写作：从材料到有针对性的文章","textPreview":"指导写作：从材料到有针对性的文章","textChars":16,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"text":"两篇材料服务同一问题；答案必须回答题目指定的三个要点。 ","textPreview":"两篇材料服务同一问题；答案必须回答题目指定的三个要点。","textChars":28,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/ps3y5knq","slide":16,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/oruhcf65","slide":16,"bbox":[92,205,470,335]}
+{"kind":"textbox","id":"sh/bulg7u5g","slide":16,"text":"材料输入","textPreview":"材料输入","textChars":4,"textLines":1,"bbox":[126,228,160,28]}
+{"kind":"textbox","id":"sh/atczepob","slide":16,"text":"短文一\n政策、制度与融入安排","textPreview":"短文一 | 政策、制度与融入安排","textChars":14,"textLines":2,"bbox":[126,281,360,70]}
+{"kind":"textbox","id":"sh/mpgj6t8j","slide":16,"text":"CMIO、双语、居住配额、\n融入与归化倡导员","textPreview":"CMIO、双语、居住配额、 | 融入与归化倡导员","textChars":22,"textLines":2,"bbox":[126,368,360,66]}
+{"kind":"shape","id":"sh/7qp0zepo","slide":16,"bbox":[126,460,350,2]}
+{"kind":"textbox","id":"sh/8by18jq9","slide":16,"text":"短文二\n学校、社区与共同经历","textPreview":"短文二 | 学校、社区与共同经历","textChars":14,"textLines":2,"bbox":[126,480,360,62]}
+{"kind":"shape","id":"sh/9c7i1o7u","slide":16,"bbox":[640,205,2,335]}
+{"kind":"textbox","id":"sh/ylwj2987","slide":16,"text":"文章产出","textPreview":"文章产出","textChars":4,"textLines":1,"bbox":[710,228,160,28]}
+{"kind":"textbox","id":"sh/zm50veps","slide":16,"text":"向指定读者写一篇\n论证／讨论性回应","textPreview":"向指定读者写一篇 | 论证／讨论性回应","textChars":17,"textLines":2,"bbox":[710,282,370,72]}
+{"kind":"textbox","id":"sh/kne14jqd","slide":16,"text":"答全三个要点\n使用两篇材料\n250–350 字，以自己的话表达","textPreview":"答全三个要点 | 使用两篇材料 | 250–350 字，以自己的话表达","textChars":31,"textLines":3,"bbox":[710,388,390,110]}
+{"kind":"textbox","id":"sh/lo7ixo7y","slide":16,"text":"编号帮助你覆盖题目；它不是文章的最终结构。","textPreview":"编号帮助你覆盖题目；它不是文章的最终结构。","textChars":21,"textLines":1,"bbox":[92,588,1000,30]}
+{"kind":"shape","id":"sh/ih0jedob","slide":16,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/ji9k7ypw","slide":16,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/tcbmdcre","slide":16,"text":"写作任务：原因、内容、意义","textPreview":"写作任务：原因、内容、意义","textChars":13,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/sb2l47at","slide":16,"text":"整篇文章只回答这三个方面，段落按题目要求组织。 ","textPreview":"整篇文章只回答这三个方面，段落按题目要求组织。","textChars":24,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/rat4b298","slide":16,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/69k32xsn","slide":16,"bbox":[92,198,1096,78]}
+{"kind":"textbox","id":"sh/58bm9sr2","slide":16,"text":"根据短文一和短文二，介绍新加坡多种族模式政策。","textPreview":"根据短文一和短文二，介绍新加坡多种族模式政策。","textChars":23,"textLines":1,"bbox":[120,220,1040,34]}
+{"kind":"shape","id":"sh/47il0nah","slide":16,"bbox":[92,338,334,180]}
+{"kind":"textbox","id":"sh/j6947i9w","slide":16,"text":"第一方面","textPreview":"第一方面","textChars":4,"textLines":1,"bbox":[120,363,170,28]}
+{"kind":"textbox","id":"sh/i503ydsr","slide":16,"text":"说明实施这项政策的原因","textPreview":"说明实施这项政策的原因","textChars":11,"textLines":1,"bbox":[120,411,275,54]}
+{"kind":"textbox","id":"sh/p4vmlwrm","slide":16,"text":"为什么需要这项政策","textPreview":"为什么需要这项政策","textChars":9,"textLines":1,"bbox":[120,474,275,25]}
+{"kind":"shape","id":"sh/o3m5crq1","slide":16,"bbox":[459,338,334,180]}
+{"kind":"textbox","id":"sh/wnadcrqh","slide":16,"text":"第二方面","textPreview":"第二方面","textChars":4,"textLines":1,"bbox":[487,363,170,28]}
+{"kind":"textbox","id":"sh/xoju5wr2","slide":16,"text":"介绍这项政策的主要内容","textPreview":"介绍这项政策的主要内容","textChars":11,"textLines":1,"bbox":[487,411,275,54]}
+{"kind":"textbox","id":"sh/alsbahsb","slide":16,"text":"政府和社会怎样做","textPreview":"政府和社会怎样做","textChars":8,"textLines":1,"bbox":[487,474,275,25]}
+{"kind":"shape","id":"sh/vm1c3m9w","slide":16,"bbox":[826,338,334,180]}
+{"kind":"textbox","id":"sh/kbudgrqt","slide":16,"text":"第三方面","textPreview":"第三方面","textChars":4,"textLines":1,"bbox":[854,363,170,28]}
+{"kind":"textbox","id":"sh/5c3u9wry","slide":16,"text":"评价这项政策的意义","textPreview":"评价这项政策的意义","textChars":9,"textLines":1,"bbox":[854,411,275,54]}
+{"kind":"textbox","id":"sh/i9sve18n","slide":16,"text":"它带来什么结果与影响","textPreview":"它带来什么结果与影响","textChars":10,"textLines":1,"bbox":[854,474,275,25]}
+{"kind":"textbox","id":"sh/ja1c7m98","slide":16,"text":"先分清三个问题，再在原文中编号。","textPreview":"先分清三个问题，再在原文中编号。","textChars":16,"textLines":1,"bbox":[92,580,880,30]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"以用户确认的最终写作要求为准：1. 说明政策的原因；2. 介绍政策内容；3. 评价政策意义。课堂起点是把这三个问题说清楚，避免自行增加第四项讨论任务。\n材料依据：用户提供的教材页面截图。 "}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"第一遍阅读：给信息分类","textShapes":30}
+{"kind":"shape","id":"sh/3ap8fm50","slide":17,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"text":"第一遍阅读：给信息分类","textPreview":"第一遍阅读：给信息分类","textChars":11,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/gbedwfmx","slide":17,"text":"不急着写答案，先分清事实、想法和意见。","textPreview":"不急着写答案，先分清事实、想法和意见。","textChars":19,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/rm5czq50","slide":17,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"text":"事实信息","textPreview":"事实信息","textChars":4,"textLines":1,"bbox":[100,205,250,40]}
+{"kind":"textbox","id":"sh/t8ne10n6","slide":17,"text":"可核对的政策、做法、时间或活动。","textPreview":"可核对的政策、做法、时间或活动。","textChars":16,"textLines":1,"bbox":[100,282,285,90]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"text":"想法信息","textPreview":"想法信息","textChars":4,"textLines":1,"bbox":[495,205,250,40]}
+{"kind":"textbox","id":"sh/jilcvq54","slide":17,"text":"作者怎样解释一项做法的意义。","textPreview":"作者怎样解释一项做法的意义。","textChars":14,"textLines":1,"bbox":[495,282,285,90]}
+{"kind":"textbox","id":"sh/ihcvml4j","slide":17,"text":"意见信息","textPreview":"意见信息","textChars":4,"textLines":1,"bbox":[890,205,250,40]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"text":"作者或材料希望读者接受的判断。","textPreview":"作者或材料希望读者接受的判断。","textChars":15,"textLines":1,"bbox":[890,282,285,90]}
+{"kind":"shape","id":"sh/pc7qhwn6","slide":17,"bbox":[100,450,1070,0]}
+{"kind":"textbox","id":"sh/29grm1of","slide":17,"text":"写在页边：这条信息将来可以回答题目中的哪一个要求？","textPreview":"写在页边：这条信息将来可以回答题目中的哪一个要求？","textChars":25,"textLines":1,"bbox":[100,505,970,42]}
+{"kind":"shape","id":"sh/gnepkr69","slide":17,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/honqdwnu","slide":17,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/ulw7ihoj","slide":17,"text":"先拆题：三个要点就是三项写作任务","textPreview":"先拆题：三个要点就是三项写作任务","textChars":16,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/fm58bm54","slide":17,"text":"先圈身份、读者、目的，再给每一个内容要求编号。 ","textPreview":"先圈身份、读者、目的，再给每一个内容要求编号。","textChars":24,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/0ji9wb6t","slide":17,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/14rqpgne","slide":17,"bbox":[92,195,1096,96]}
+{"kind":"textbox","id":"sh/90nq9gfi","slide":17,"text":"校报正在讨论：多元社会如何形成真正的归属感？请根据两则短文，给同学写一篇文章。","textPreview":"校报正在讨论：多元社会如何形成真正的归属感？请根据两则短文，给同学写一篇文章。","textChars":39,"textLines":1,"bbox":[125,224,1010,36]}
+{"kind":"shape","id":"sh/8ze9gbyx","slide":17,"bbox":[110,330,74,56]}
+{"kind":"textbox","id":"sh/ny5876xc","slide":17,"text":"①","textPreview":"①","textChars":1,"textLines":1,"bbox":[110,338,74,36]}
+{"kind":"textbox","id":"sh/mxw7e1gr","slide":17,"text":"说明政府怎样维护不同族群的平等地位与文化特点","textPreview":"说明政府怎样维护不同族群的平等地位与文化特点","textChars":22,"textLines":1,"bbox":[220,340,890,38]}
+{"kind":"shape","id":"sh/lwnq5gf6","slide":17,"bbox":[110,424,74,56]}
+{"kind":"textbox","id":"sh/0vepcbyl","slide":17,"text":"②","textPreview":"②","textChars":1,"textLines":1,"bbox":[110,432,74,36]}
+{"kind":"textbox","id":"sh/zul836xg","slide":17,"text":"说明学校、社区等怎样创造跨族群交流的机会","textPreview":"说明学校、社区等怎样创造跨族群交流的机会","textChars":20,"textLines":1,"bbox":[220,434,890,38]}
+{"kind":"shape","id":"sh/ytc7a1gv","slide":17,"bbox":[110,518,74,56]}
+{"kind":"textbox","id":"sh/d83q1wfa","slide":17,"text":"③","textPreview":"③","textChars":1,"textLines":1,"bbox":[110,526,74,36]}
+{"kind":"textbox","id":"sh/c7up8ryp","slide":17,"text":"结合两则短文，评价制度安排和日常互动怎样共同促进认同","textPreview":"结合两则短文，评价制度安排和日常互动怎样共同促进认同","textChars":26,"textLines":1,"bbox":[220,528,890,38]}
+{"kind":"shape","id":"sh/2dsn2xwn","slide":17,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/3e1ob2d8","slide":17,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/oza547ed","slide":17,"text":"证据编号：1.1、2.1、3.1","textPreview":"证据编号：1.1、2.1、3.1","textChars":16,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/p0j6dcvy","slide":17,"text":"第一个数字对应写作方面；小数点后的数字记录同一方面下的证据。 ","textPreview":"第一个数字对应写作方面；小数点后的数字记录同一方面下的证据。","textChars":31,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/e98nydwb","slide":17,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/fah47idw","slide":17,"bbox":[110,208,138,58]}
+{"kind":"textbox","id":"sh/gbq50neh","slide":17,"text":"1.1","textPreview":"1.1","textChars":3,"textLines":1,"bbox":[110,218,138,36]}
+{"kind":"textbox","id":"sh/1cj69sv2","slide":17,"text":"回答第一方面：为什么需要政策","textPreview":"回答第一方面：为什么需要政策","textChars":14,"textLines":1,"bbox":[286,221,585,35]}
+{"kind":"textbox","id":"sh/658nudwf","slide":17,"text":"原因","textPreview":"原因","textChars":2,"textLines":1,"bbox":[945,223,160,30]}
+{"kind":"shape","id":"sh/r6h43id0","slide":17,"bbox":[110,302,138,58]}
+{"kind":"textbox","id":"sh/jy1kfehg","slide":17,"text":"2.1","textPreview":"2.1","textChars":3,"textLines":1,"bbox":[110,312,138,36]}
+{"kind":"textbox","id":"sh/ixsj690v","slide":17,"text":"回答第二方面：政策具体怎样做","textPreview":"回答第二方面：政策具体怎样做","textChars":14,"textLines":1,"bbox":[286,315,585,35]}
+{"kind":"textbox","id":"sh/50j2hozm","slide":17,"text":"内容","textPreview":"内容","textChars":2,"textLines":1,"bbox":[945,317,160,30]}
+{"kind":"shape","id":"sh/kza18ji1","slide":17,"bbox":[110,396,138,58]}
+{"kind":"textbox","id":"sh/vuhkbehk","slide":17,"text":"3.1","textPreview":"3.1","textChars":3,"textLines":1,"bbox":[110,406,138,36]}
+{"kind":"textbox","id":"sh/at8j290z","slide":17,"text":"回答第三方面：政策带来什么影响","textPreview":"回答第三方面：政策带来什么影响","textChars":15,"textLines":1,"bbox":[286,409,585,35]}
+{"kind":"textbox","id":"sh/xwz2dozq","slide":17,"text":"意义","textPreview":"意义","textChars":2,"textLines":1,"bbox":[945,411,160,30]}
+{"kind":"shape","id":"sh/wvq14ji5","slide":17,"bbox":[92,522,1096,2]}
+{"kind":"textbox","id":"sh/n6h07uh8","slide":17,"text":"例：在短文二看到“学校安排跨族群课外活动”，先问它是政策内容还是政策意义，\n再分别标为 2.4 或 3.2。","textPreview":"例：在短文二看到“学校安排跨族群课外活动”，先问它是政策内容还是政策意义， | 再分别标为 2.4 或 3.2。","textChars":54,"textLines":2,"bbox":[92,553,1030,55]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"沿用学生已掌握的 1.1、1.2、1.3 编号法，不改用新的来源代码。学生在两篇材料中都以同一套编号标注，先判断信息属于原因、内容还是意义。\n材料依据：用户提供的教材页面截图。 "}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"从材料到问题","textShapes":32}
+{"kind":"shape","id":"sh/7mpknmp0","slide":18,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"text":"从材料到问题","textPreview":"从材料到问题","textChars":6,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/hsn2l4bu","slide":18,"text":"政策怎样回应身份认同、接触机会和融入社会的需要？","textPreview":"政策怎样回应身份认同、接触机会和融入社会的需要？","textChars":24,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/itw3upcf","slide":18,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/je5knut0","slide":18,"text":"家庭","textPreview":"家庭","textChars":2,"textLines":1,"bbox":[100,212,180,36]}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"text":"希望保留什么？\n担心什么？","textPreview":"希望保留什么？ | 担心什么？","textChars":13,"textLines":2,"bbox":[100,272,200,82]}
+{"kind":"textbox","id":"sh/5gnmp4bq","slide":18,"text":"学校","textPreview":"学校","textChars":2,"textLines":1,"bbox":[405,212,180,36]}
+{"kind":"textbox","id":"sh/6hw3y9sb","slide":18,"text":"怎样创造交流机会？\n哪一种活动最有用？","textPreview":"怎样创造交流机会？ | 哪一种活动最有用？","textChars":19,"textLines":2,"bbox":[405,272,250,82]}
+{"kind":"textbox","id":"sh/rip4retw","slide":18,"text":"社区","textPreview":"社区","textChars":2,"textLines":1,"bbox":[755,212,180,36]}
+{"kind":"textbox","id":"sh/fapkr6pw","slide":18,"text":"什么让人愿意参与？\n谁可能被遗漏？","textPreview":"什么让人愿意参与？ | 谁可能被遗漏？","textChars":17,"textLines":2,"bbox":[755,272,250,82]}
+{"kind":"textbox","id":"sh/upg3i18r","slide":18,"text":"新移民","textPreview":"新移民","textChars":3,"textLines":1,"bbox":[1050,212,180,36]}
+{"kind":"textbox","id":"sh/1cr2tg72","slide":18,"text":"最需要哪一种支持？","textPreview":"最需要哪一种支持？","textChars":9,"textLines":1,"bbox":[1050,272,175,82]}
+{"kind":"textbox","id":"sh/gbylkbqh","slide":18,"text":"每一组只能用短文一、二中的两项信息，提出一项具体建议。","textPreview":"每一组只能用短文一、二中的两项信息，提出一项具体建议。","textChars":27,"textLines":1,"bbox":[100,500,1040,42]}
+{"kind":"shape","id":"sh/6lg3e18f","slide":18,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/to72pw76","slide":18,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/snylgrql","slide":18,"text":"证据编号法：每个标签都说明“答什么、来自哪里”","textPreview":"证据编号法：每个标签都说明“答什么、来自哪里”","textChars":23,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/bi94zqp4","slide":18,"text":"格式：题目要点＋材料来源＋该要点下的序号。 ","textPreview":"格式：题目要点＋材料来源＋该要点下的序号。","textChars":22,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/qh03ql8j","slide":18,"bbox":[64,153,106,5]}
+{"kind":"textbox","id":"sh/md4nipsr","slide":18,"text":"① A 1","textPreview":"① A 1","textChars":5,"textLines":1,"bbox":[102,225,260,70]}
+{"kind":"textbox","id":"sh/nedoru9c","slide":18,"text":"①  对应题目的第一个要点","textPreview":"①  对应题目的第一个要点","textChars":13,"textLines":1,"bbox":[416,220,590,32]}
+{"kind":"textbox","id":"sh/8zm5kzax","slide":18,"text":"A  来自短文一；B 来自短文二","textPreview":"A  来自短文一；B 来自短文二","textChars":16,"textLines":1,"bbox":[416,269,590,32]}
+{"kind":"textbox","id":"sh/90v6t4ri","slide":18,"text":"1  同一要点下的第一项可用信息","textPreview":"1  同一要点下的第一项可用信息","textChars":16,"textLines":1,"bbox":[416,318,590,32]}
+{"kind":"shape","id":"sh/a14nm9s3","slide":18,"bbox":[92,400,1096,2]}
+{"kind":"textbox","id":"sh/v2xovu9o","slide":18,"text":"在原文边上这样标","textPreview":"在原文边上这样标","textChars":8,"textLines":1,"bbox":[92,432,250,28]}
+{"kind":"textbox","id":"sh/w36poza9","slide":18,"text":"①A1  CMIO：不同族群享有平等地位\n①A2  双语教育保留母语与族群语言\n②B1  跨族群课外活动创造交流机会","textPreview":"①A1  CMIO：不同族群享有平等地位 | ①A2  双语教育保留母语与族群语言 | ②B1  跨族群课外活动创造交流机会","textChars":58,"textLines":3,"bbox":[92,480,885,108]}
+{"kind":"textbox","id":"sh/x4f6x4re","slide":18,"text":"不要抄整句。\n圈关键词，再写“它说明什么”。","textPreview":"不要抄整句。 | 圈关键词，再写“它说明什么”。","textChars":22,"textLines":2,"bbox":[982,471,175,92]}
+{"kind":"shape","id":"sh/q5kna5sz","slide":18,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/b6toja94","slide":18,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/t0zqp8bm","slide":18,"text":"第一方面：为什么需要多种族模式政策","textPreview":"第一方面：为什么需要多种族模式政策","textChars":17,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/szq9g3uh","slide":18,"text":"原因要回答社会面对的需要，不是罗列政策本身。 ","textPreview":"原因要回答社会面对的需要，不是罗列政策本身。","textChars":23,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/7yh8nytw","slide":18,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/6x8retcb","slide":18,"bbox":[92,212,142,70]}
+{"kind":"textbox","id":"sh/h4jqtsby","slide":18,"text":"1.1","textPreview":"1.1","textChars":3,"textLines":1,"bbox":[92,228,142,38]}
+{"kind":"textbox","id":"sh/g3a9knud","slide":18,"text":"不同族群在语言、文化和宗教方面保有各自特点","textPreview":"不同族群在语言、文化和宗教方面保有各自特点","textChars":21,"textLines":1,"bbox":[282,217,465,58]}
+{"kind":"shape","id":"sh/f218rits","slide":18,"bbox":[785,217,2,58]}
+{"kind":"textbox","id":"sh/u1sridc7","slide":18,"text":"需要维护多元社会中的平等与尊重","textPreview":"需要维护多元社会中的平等与尊重","textChars":15,"textLines":1,"bbox":[830,222,300,50]}
+{"kind":"shape","id":"sh/x8fqhobu","slide":18,"bbox":[92,322,142,70]}
+{"kind":"textbox","id":"sh/w7698ju9","slide":18,"text":"1.2","textPreview":"1.2","textChars":3,"textLines":1,"bbox":[92,338,142,38]}
+{"kind":"textbox","id":"sh/0netwrex","slide":18,"text":"不同种族的学生需要互动和交流的机会","textPreview":"不同种族的学生需要互动和交流的机会","textChars":17,"textLines":1,"bbox":[282,327,465,58]}
+{"kind":"shape","id":"sh/lonupwv2","slide":18,"bbox":[785,327,2,58]}
+{"kind":"textbox","id":"sh/ylwbuhwr","slide":18,"text":"需要避免群体之间缺少接触","textPreview":"需要避免群体之间缺少接触","textChars":12,"textLines":1,"bbox":[830,332,300,50]}
+{"kind":"shape","id":"sh/zm5cnmdc","slide":18,"bbox":[92,432,142,70]}
+{"kind":"textbox","id":"sh/cjutsrel","slide":18,"text":"1.3","textPreview":"1.3","textChars":3,"textLines":1,"bbox":[92,448,142,38]}
+{"kind":"textbox","id":"sh/dk3ulcv6","slide":18,"text":"新移民需要融入新加坡社会","textPreview":"新移民需要融入新加坡社会","textChars":12,"textLines":1,"bbox":[282,437,465,58]}
+{"kind":"shape","id":"sh/qxcbqhwf","slide":18,"bbox":[785,437,2,58]}
+{"kind":"textbox","id":"sh/bylcjmd0","slide":18,"text":"需要帮助新成员建立归属感","textPreview":"需要帮助新成员建立归属感","textChars":12,"textLines":1,"bbox":[830,442,300,50]}
+{"kind":"textbox","id":"sh/4vuto7ep","slide":18,"text":"写作时把“材料事实”解释成“政策为什么有必要”。","textPreview":"写作时把“材料事实”解释成“政策为什么有必要”。","textChars":24,"textLines":1,"bbox":[92,584,1000,30]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":"原因段建议使用 1.1 至 1.3 中两项或三项信息。教师示范：先说多元社会的现实，再说明政策需要回应的平等、接触和融入需要。\n材料依据：用户提供的教材页面截图。 "}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"两则短文的比较","textShapes":39}
+{"kind":"shape","id":"sh/wj2psvat","slide":19,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/9gb6xgbi","slide":19,"text":"两则短文的比较","textPreview":"两则短文的比较","textChars":7,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/8v2pobax","slide":19,"text":"先分别找信息，再判断共通与差异。","textPreview":"先分别找信息，再判断共通与差异。","textChars":16,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/vitozqt8","slide":19,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/xkbq10be","slide":19,"text":"你的每一格都要能够回到原文。","textPreview":"你的每一格都要能够回到原文。","textChars":14,"textLines":1,"bbox":[80,555,720,34]}
+{"kind":"shape","id":"sh/il47u5sz","slide":19,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/cri1gnql","slide":19,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/dsri9sr6","slide":19,"text":"短文一 A：政策怎样为认同提供基础","textPreview":"短文一 A：政策怎样为认同提供基础","textChars":17,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/qpgjex8f","slide":19,"text":"先把短文一的材料放进最合适的题目要点，不求每一句都编号。 ","textPreview":"先把短文一的材料放进最合适的题目要点，不求每一句都编号。","textChars":29,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/rqp07290","slide":19,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/0vi1k7qx","slide":19,"bbox":[92,198,1096,54]}
+{"kind":"textbox","id":"sh/1gridcr2","slide":19,"text":"编号","textPreview":"编号","textChars":2,"textLines":1,"bbox":[118,211,155,28]}
+{"kind":"textbox","id":"sh/et0jix8r","slide":19,"text":"材料关键词","textPreview":"材料关键词","textChars":5,"textLines":1,"bbox":[305,211,570,28]}
+{"kind":"textbox","id":"sh/zu90b29c","slide":19,"text":"它回答什么","textPreview":"它回答什么","textChars":5,"textLines":1,"bbox":[920,211,210,28]}
+{"kind":"shape","id":"sh/oj21o7qt","slide":19,"bbox":[92,252,1096,75]}
+{"kind":"textbox","id":"sh/9kb2hcre","slide":19,"text":"①A1","textPreview":"①A1","textChars":3,"textLines":1,"bbox":[118,270,155,30]}
+{"kind":"textbox","id":"sh/x07i1cji","slide":19,"text":"CMIO 模式让华人、马来人、印度人与其他族群享有平等地位","textPreview":"CMIO 模式让华人、马来人、印度人与其他族群享有平等地位","textChars":29,"textLines":1,"bbox":[305,265,570,48]}
+{"kind":"textbox","id":"sh/wfy1s7ix","slide":19,"text":"维护平等地位","textPreview":"维护平等地位","textChars":6,"textLines":1,"bbox":[920,270,210,30]}
+{"kind":"shape","id":"sh/vep0z21c","slide":19,"bbox":[92,327,1096,75]}
+{"kind":"textbox","id":"sh/adgjqx0r","slide":19,"text":"①A2","textPreview":"①A2","textChars":3,"textLines":1,"bbox":[118,345,155,30]}
+{"kind":"textbox","id":"sh/54ri5wje","slide":19,"text":"双语教育中的母语学习保留各族群的语言特点","textPreview":"双语教育中的母语学习保留各族群的语言特点","textChars":20,"textLines":1,"bbox":[305,340,570,48]}
+{"kind":"textbox","id":"sh/k3y1wri9","slide":19,"text":"保留文化特点","textPreview":"保留文化特点","textChars":6,"textLines":1,"bbox":[920,345,210,30]}
+{"kind":"shape","id":"sh/j2p03m1o","slide":19,"bbox":[92,402,1096,75]}
+{"kind":"textbox","id":"sh/i1gjuh03","slide":19,"text":"②A1","textPreview":"②A1","textChars":3,"textLines":1,"bbox":[118,420,155,30]}
+{"kind":"textbox","id":"sh/l8nitsja","slide":19,"text":"种族配额制与公共场所让不同族群有接触机会","textPreview":"种族配额制与公共场所让不同族群有接触机会","textChars":20,"textLines":1,"bbox":[305,415,570,48]}
+{"kind":"textbox","id":"sh/07ehknip","slide":19,"text":"创造交流条件","textPreview":"创造交流条件","textChars":6,"textLines":1,"bbox":[920,420,210,30]}
+{"kind":"shape","id":"sh/qdsfutgn","slide":19,"bbox":[92,477,1096,75]}
+{"kind":"textbox","id":"sh/belg3yh8","slide":19,"text":"②A2","textPreview":"②A2","textChars":3,"textLines":1,"bbox":[118,495,155,30]}
+{"kind":"textbox","id":"sh/cfuxw3yt","slide":19,"text":"融入与归化倡导员协助新移民参与社区生活","textPreview":"融入与归化倡导员协助新移民参与社区生活","textChars":19,"textLines":1,"bbox":[305,490,570,48]}
+{"kind":"textbox","id":"sh/dg3y58zy","slide":19,"text":"帮助融入社会","textPreview":"帮助融入社会","textChars":6,"textLines":1,"bbox":[920,495,210,30]}
+{"kind":"textbox","id":"sh/yhcfydgj","slide":19,"text":"学生核对：我标的不是“有趣的信息”，而是能直接回应题目的一点。","textPreview":"学生核对：我标的不是“有趣的信息”，而是能直接回应题目的一点。","textChars":31,"textLines":1,"bbox":[92,594,1040,30]}
+{"kind":"shape","id":"sh/zilg7yh4","slide":19,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/0jux03yp","slide":19,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/lk3y98za","slide":19,"text":"第二方面：政策包括哪些安排","textPreview":"第二方面：政策包括哪些安排","textChars":13,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/ul8fm9gf","slide":19,"text":"介绍内容时按类别归纳，不把每一个例子平铺直叙。 ","textPreview":"介绍内容时按类别归纳，不把每一个例子平铺直叙。","textChars":24,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/fm1wveh0","slide":19,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/v694365c","slide":19,"bbox":[92,198,1096,54]}
+{"kind":"textbox","id":"sh/a503a1o7","slide":19,"text":"编号","textPreview":"编号","textChars":2,"textLines":1,"bbox":[122,211,130,28]}
+{"kind":"textbox","id":"sh/x8rm5gni","slide":19,"text":"政策类别","textPreview":"政策类别","textChars":4,"textLines":1,"bbox":[310,211,240,28]}
+{"kind":"textbox","id":"sh/w7i5cbmx","slide":19,"text":"材料中的具体安排","textPreview":"材料中的具体安排","textChars":8,"textLines":1,"bbox":[650,211,420,28]}
+{"kind":"shape","id":"sh/ju947q5o","slide":19,"bbox":[92,252,1096,76]}
+{"kind":"textbox","id":"sh/it0nel43","slide":19,"text":"2.1","textPreview":"2.1","textChars":3,"textLines":1,"bbox":[122,272,130,30]}
+{"kind":"textbox","id":"sh/5wrm9gnu","slide":19,"text":"身份与语言","textPreview":"身份与语言","textChars":5,"textLines":1,"bbox":[310,271,240,32]}
+{"kind":"textbox","id":"sh/kvi5gbm9","slide":19,"text":"CMIO 模式、双语教育与母语学习","textPreview":"CMIO 模式、双语教育与母语学习","textChars":17,"textLines":1,"bbox":[650,268,430,42]}
+{"kind":"shape","id":"sh/7yt4bq5k","slide":19,"bbox":[92,328,1096,76]}
+{"kind":"textbox","id":"sh/6xknil4z","slide":19,"text":"2.2","textPreview":"2.2","textChars":3,"textLines":1,"bbox":[122,348,130,30]}
+{"kind":"textbox","id":"sh/432l8v2d","slide":19,"text":"居住与接触","textPreview":"居住与接触","textChars":5,"textLines":1,"bbox":[310,347,240,32]}
+{"kind":"textbox","id":"sh/p4vm103y","slide":19,"text":"种族配额制、公共场所提供交往机会","textPreview":"种族配额制、公共场所提供交往机会","textChars":16,"textLines":1,"bbox":[650,344,430,42]}
+{"kind":"shape","id":"sh/21k36lk7","slide":19,"bbox":[92,404,1096,76]}
+{"kind":"textbox","id":"sh/32t4zqls","slide":19,"text":"2.3","textPreview":"2.3","textChars":3,"textLines":1,"bbox":[122,424,130,30]}
+{"kind":"textbox","id":"sh/gz2l4v2h","slide":19,"text":"融入支持","textPreview":"融入支持","textChars":4,"textLines":1,"bbox":[310,423,240,32]}
+{"kind":"textbox","id":"sh/h0bmx03m","slide":19,"text":"融入与归化倡导员协助新移民参与社区","textPreview":"融入与归化倡导员协助新移民参与社区","textChars":17,"textLines":1,"bbox":[650,420,430,42]}
+{"kind":"shape","id":"sh/uxk32lkb","slide":19,"bbox":[92,480,1096,76]}
+{"kind":"textbox","id":"sh/fytkvqlw","slide":19,"text":"2.4","textPreview":"2.4","textChars":3,"textLines":1,"bbox":[122,500,130,30]}
+{"kind":"textbox","id":"sh/svil0b25","slide":19,"text":"共同参与","textPreview":"共同参与","textChars":4,"textLines":1,"bbox":[310,499,240,32]}
+{"kind":"textbox","id":"sh/twb2tg3q","slide":19,"text":"跨族群课外活动、公共假日、文化节日与国民服役","textPreview":"跨族群课外活动、公共假日、文化节日与国民服役","textChars":22,"textLines":1,"bbox":[650,496,430,42]}
+{"kind":"textbox","id":"sh/9s3ixcve","slide":19,"text":"“课外活动”在这里是 2.4 的一个政策内容，不单独成为第四个写作方向。","textPreview":"“课外活动”在这里是 2.4 的一个政策内容，不单独成为第四个写作方向。","textChars":36,"textLines":1,"bbox":[92,588,1080,30]}
+{"kind":"table","id":"tb/mdonq9s7","slide":19,"name":"","rows":4,"cols":3,"preview":"材料问题 | 短文一 | 短文二","bbox":[78,205,1120,300]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":"内容段按四类归纳。学生可选择最能代表不同层面的安排，不必为了凑字数逐句罗列。课外活动、假日和国民服役均属于政策内容的例子。\n材料依据：用户提供的教材页面截图。 "}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"回应概括性写作任务","textShapes":45}
+{"kind":"shape","id":"sh/qh4nupg7","slide":20,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/qpwjmh8n","slide":20,"text":"回应概括性写作任务","textPreview":"回应概括性写作任务","textChars":9,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/rq50vmp8","slide":20,"text":"以学生代表身份，为“多元文化周”开幕活动写一篇发言。","textPreview":"以学生代表身份，为“多元文化周”开幕活动写一篇发言。","textChars":26,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/4nu1krqh","slide":20,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/po3itc72","slide":20,"text":"你的读者","textPreview":"你的读者","textChars":4,"textLines":1,"bbox":[96,202,210,34]}
+{"kind":"textbox","id":"sh/2lczih8r","slide":20,"text":"同学、家长和社区成员","textPreview":"同学、家长和社区成员","textChars":10,"textLines":1,"bbox":[96,266,300,48]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":20,"text":"你的目的","textPreview":"你的目的","textChars":4,"textLines":1,"bbox":[505,202,210,34]}
+{"kind":"textbox","id":"sh/gjuhg7ql","slide":20,"text":"说明一项成效、一项挑战\n并提出一项有根据的建议","textPreview":"说明一项成效、一项挑战 | 并提出一项有根据的建议","textChars":23,"textLines":2,"bbox":[505,266,365,82]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":20,"text":"材料要求","textPreview":"材料要求","textChars":4,"textLines":1,"bbox":[955,202,210,34]}
+{"kind":"textbox","id":"sh/dkfmp4zy","slide":20,"text":"两则短文都要发挥作用。\n用自己的话表达。","textPreview":"两则短文都要发挥作用。 | 用自己的话表达。","textChars":20,"textLines":2,"bbox":[955,266,235,82]}
+{"kind":"shape","id":"sh/cj65wzyd","slide":20,"bbox":[96,425,1080,0]}
+{"kind":"textbox","id":"sh/rid4nuhs","slide":20,"text":"交稿前问自己：我的每一段都在回答任务吗？我有没有把材料改写成自己的表达？","textPreview":"交稿前问自己：我的每一段都在回答任务吗？我有没有把材料改写成自己的表达？","textChars":36,"textLines":1,"bbox":[96,492,1070,64]}
+{"kind":"shape","id":"sh/pwvmlkzm","slide":20,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/4vm5sfy1","slide":20,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/3ud4juhg","slide":20,"text":"短文二 B：共同经历怎样把“接触”变成理解","textPreview":"短文二 B：共同经历怎样把“接触”变成理解","textChars":21,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/2t4nqpgb","slide":20,"text":"短文二主要帮助回答第②与第③点。 ","textPreview":"短文二主要帮助回答第②与第③点。","textChars":17,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/hsvmhkzq","slide":20,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/grm5ofy5","slide":20,"bbox":[92,198,1096,54]}
+{"kind":"textbox","id":"sh/8b654f61","slide":20,"text":"编号","textPreview":"编号","textChars":2,"textLines":1,"bbox":[118,211,155,28]}
+{"kind":"textbox","id":"sh/tcz6dk7m","slide":20,"text":"材料关键词","textPreview":"材料关键词","textChars":5,"textLines":1,"bbox":[305,211,570,28]}
+{"kind":"textbox","id":"sh/69on25ov","slide":20,"text":"它回答什么","textPreview":"它回答什么","textChars":5,"textLines":1,"bbox":[920,211,210,28]}
+{"kind":"shape","id":"sh/7ax4bapg","slide":20,"bbox":[92,252,1096,75]}
+{"kind":"textbox","id":"sh/k7650f6p","slide":20,"text":"②B1","textPreview":"②B1","textChars":3,"textLines":1,"bbox":[118,270,155,30]}
+{"kind":"textbox","id":"sh/l8fm907a","slide":20,"text":"跨越种族的课外活动让学生一起参与、消磨课余时间","textPreview":"跨越种族的课外活动让学生一起参与、消磨课余时间","textChars":23,"textLines":1,"bbox":[305,265,570,48]}
+{"kind":"textbox","id":"sh/y5ony58z","slide":20,"text":"学校中的交流","textPreview":"学校中的交流","textChars":6,"textLines":1,"bbox":[920,270,210,30]}
+{"kind":"shape","id":"sh/j6x47ap4","slide":20,"bbox":[92,327,1096,75]}
+{"kind":"textbox","id":"sh/43q5cz69","slide":20,"text":"②B2","textPreview":"②B2","textChars":3,"textLines":1,"bbox":[118,345,155,30]}
+{"kind":"textbox","id":"sh/54j6l47e","slide":20,"text":"种族和谐日、校园庆祝与社区文化周让居民共同参与","textPreview":"种族和谐日、校园庆祝与社区文化周让居民共同参与","textChars":23,"textLines":1,"bbox":[305,340,570,48]}
+{"kind":"textbox","id":"sh/za50r2ds","slide":20,"text":"社区中的交流","textPreview":"社区中的交流","textChars":6,"textLines":1,"bbox":[920,345,210,30]}
+{"kind":"shape","id":"sh/e9wzyxcn","slide":20,"bbox":[92,402,1096,75]}
+{"kind":"textbox","id":"sh/1cnitsvy","slide":20,"text":"②B3","textPreview":"②B3","textChars":3,"textLines":1,"bbox":[118,420,155,30]}
+{"kind":"textbox","id":"sh/0beh07ud","slide":20,"text":"国民服役让不同背景的人共同维护国家安全","textPreview":"国民服役让不同背景的人共同维护国家安全","textChars":19,"textLines":1,"bbox":[305,415,570,48]}
+{"kind":"textbox","id":"sh/ny50v2d4","slide":20,"text":"共同经历","textPreview":"共同经历","textChars":4,"textLines":1,"bbox":[920,420,210,30]}
+{"kind":"shape","id":"sh/mdwz2xcj","slide":20,"bbox":[92,477,1096,75]}
+{"kind":"textbox","id":"sh/907ixcva","slide":20,"text":"③B1","textPreview":"③B1","textChars":3,"textLines":1,"bbox":[118,495,155,30]}
+{"kind":"textbox","id":"sh/8zeh47up","slide":20,"text":"共同经历使人学习相互理解与尊重，体会社会多元性","textPreview":"共同经历使人学习相互理解与尊重，体会社会多元性","textChars":23,"textLines":1,"bbox":[305,490,570,48]}
+{"kind":"textbox","id":"sh/32lgjid0","slide":20,"text":"认同如何形成","textPreview":"认同如何形成","textChars":6,"textLines":1,"bbox":[920,495,210,30]}
+{"kind":"textbox","id":"sh/2hczqdwf","slide":20,"text":"一个信息先归入最主要的要点；写作时可以在另一段把它用于联结。","textPreview":"一个信息先归入最主要的要点；写作时可以在另一段把它用于联结。","textChars":30,"textLines":1,"bbox":[92,594,1040,30]}
+{"kind":"shape","id":"sh/ulwz6d4b","slide":20,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/vmp0zilg","slide":20,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/gnyh8nm1","slide":20,"text":"第三方面：怎样评价政策的意义","textPreview":"第三方面：怎样评价政策的意义","textChars":14,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/ho7i1s3m","slide":20,"text":"评价要写出政策产生的影响，并用材料说明影响怎样出现。 ","textPreview":"评价要写出政策产生的影响，并用材料说明影响怎样出现。","textChars":27,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/ipgzadk7","slide":20,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/3qp03ils","slide":20,"bbox":[92,195,126,52]}
+{"kind":"textbox","id":"sh/4ryhcn2d","slide":20,"text":"3.1","textPreview":"3.1","textChars":3,"textLines":1,"bbox":[92,205,126,30]}
+{"kind":"textbox","id":"sh/5s7i5s3y","slide":20,"text":"不同族群获得平等地位，同时保留语言、文化和宗教特点","textPreview":"不同族群获得平等地位，同时保留语言、文化和宗教特点","textChars":25,"textLines":1,"bbox":[265,203,620,35]}
+{"kind":"textbox","id":"sh/qdgzexk3","slide":20,"text":"维护多元社会","textPreview":"维护多元社会","textChars":6,"textLines":1,"bbox":[932,205,215,30]}
+{"kind":"shape","id":"sh/re9072lo","slide":20,"bbox":[92,260,126,52]}
+{"kind":"textbox","id":"sh/18b2xwn6","slide":20,"text":"3.2","textPreview":"3.2","textChars":3,"textLines":1,"bbox":[92,270,126,30]}
+{"kind":"textbox","id":"sh/07214r6l","slide":20,"text":"居住、学校和社区中的接触机会增加","textPreview":"居住、学校和社区中的接触机会增加","textChars":16,"textLines":1,"bbox":[265,268,620,35]}
+{"kind":"textbox","id":"sh/fmtkvm50","slide":20,"text":"促进族群交流与融合","textPreview":"促进族群交流与融合","textChars":9,"textLines":1,"bbox":[932,270,215,30]}
+{"kind":"shape","id":"sh/el0j2hof","slide":20,"bbox":[92,325,126,52]}
+{"kind":"textbox","id":"sh/9cb21gn2","slide":20,"text":"3.3","textPreview":"3.3","textChars":3,"textLines":1,"bbox":[92,335,126,30]}
+{"kind":"textbox","id":"sh/ob2l8bmh","slide":20,"text":"共同学习、庆祝节日和参与国民服役","textPreview":"共同学习、庆祝节日和参与国民服役","textChars":16,"textLines":1,"bbox":[265,333,620,35]}
+{"kind":"textbox","id":"sh/natkz65w","slide":20,"text":"形成新加坡人的共同认同","textPreview":"形成新加坡人的共同认同","textChars":11,"textLines":1,"bbox":[932,335,215,30]}
+{"kind":"shape","id":"sh/m9k3614b","slide":20,"bbox":[92,390,126,52]}
+{"kind":"textbox","id":"sh/xgv25gne","slide":20,"text":"3.4","textPreview":"3.4","textChars":3,"textLines":1,"bbox":[92,400,126,30]}
+{"kind":"textbox","id":"sh/wfmlcbmt","slide":20,"text":"人们学习相互理解与尊重，认识社会的多元性","textPreview":"人们学习相互理解与尊重，认识社会的多元性","textChars":20,"textLines":1,"bbox":[265,398,620,35]}
+{"kind":"textbox","id":"sh/gvedojy1","slide":20,"text":"增强社会凝聚力","textPreview":"增强社会凝聚力","textChars":7,"textLines":1,"bbox":[932,400,215,30]}
+{"kind":"shape","id":"sh/hwnexozm","slide":20,"bbox":[92,455,126,52]}
+{"kind":"textbox","id":"sh/utcvm9gv","slide":20,"text":"3.5","textPreview":"3.5","textChars":3,"textLines":1,"bbox":[92,465,126,30]}
+{"kind":"textbox","id":"sh/vu5wvehg","slide":20,"text":"新移民参与社区并融入社会","textPreview":"新移民参与社区并融入社会","textChars":12,"textLines":1,"bbox":[265,463,620,35]}
+{"kind":"textbox","id":"sh/4zedsjyd","slide":20,"text":"扩大归属感","textPreview":"扩大归属感","textChars":5,"textLines":1,"bbox":[932,465,215,30]}
+{"kind":"textbox","id":"sh/50ne1ozi","slide":20,"text":"评价句：这项安排的意义在于……，因为它让……","textPreview":"评价句：这项安排的意义在于……，因为它让……","textChars":22,"textLines":1,"bbox":[92,564,990,30]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":20,"text":"意义段要避免重复“政策有什么”。学生应把安排转化为结果：平等、接触、理解、共同认同和融入。可先圈 3.1 至 3.5，再选取其中三项展开。\n材料依据：用户提供的教材页面截图。 "}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"写前计划","textShapes":27}
+{"kind":"shape","id":"sh/wvax03q1","slide":21,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1gbmxs7a","slide":21,"text":"写前计划","textPreview":"写前计划","textChars":4,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/0f2lon6p","slide":21,"text":"写之前决定每一则材料在答案中的工作。","textPreview":"写之前决定每一则材料在答案中的工作。","textChars":18,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/ra9kryp8","slide":21,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/qp03yt8n","slide":21,"text":"开头","textPreview":"开头","textChars":2,"textLines":1,"bbox":[95,202,170,36]}
+{"kind":"textbox","id":"sh/dcb2t87y","slide":21,"text":"身份、受众、我要回应的问题","textPreview":"身份、受众、我要回应的问题","textChars":13,"textLines":1,"bbox":[95,264,300,70]}
+{"kind":"textbox","id":"sh/sb2lk36t","slide":21,"text":"第一段","textPreview":"第一段","textChars":3,"textLines":1,"bbox":[430,202,170,36]}
+{"kind":"textbox","id":"sh/b6d432pc","slide":21,"text":"一项有用的做法\n来自哪则材料？","textPreview":"一项有用的做法 | 来自哪则材料？","textChars":15,"textLines":2,"bbox":[430,264,280,70]}
+{"kind":"textbox","id":"sh/al43uxor","slide":21,"text":"第二段","textPreview":"第二段","textChars":3,"textLines":1,"bbox":[770,202,170,36]}
+{"kind":"textbox","id":"sh/4jax4nqd","slide":21,"text":"一个需要面对的问题\n如何回应？","textPreview":"一个需要面对的问题 | 如何回应？","textChars":15,"textLines":2,"bbox":[770,264,280,70]}
+{"kind":"textbox","id":"sh/5kjydsri","slide":21,"text":"结尾","textPreview":"结尾","textChars":2,"textLines":1,"bbox":[1085,202,130,36]}
+{"kind":"textbox","id":"sh/ixsf2d87","slide":21,"text":"具体建议","textPreview":"具体建议","textChars":4,"textLines":1,"bbox":[1085,264,125,70]}
+{"kind":"textbox","id":"sh/jy1gbi9s","slide":21,"text":"不要为每一则短文各写一段。围绕问题组织信息，才能真正整合材料。","textPreview":"不要为每一则短文各写一段。围绕问题组织信息，才能真正整合材料。","textChars":31,"textLines":1,"bbox":[95,500,1030,42]}
+{"kind":"shape","id":"sh/hwjy98rm","slide":21,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/utsfyt8v","slide":21,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/vu1w7y9g","slide":21,"text":"第三个要点：把两篇材料放进同一个判断","textPreview":"第三个要点：把两篇材料放进同一个判断","textChars":18,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/8rqxw3q5","slide":21,"text":"整合不是“短文一说……短文二说……”，而是说明两者怎样共同回答问题。 ","textPreview":"整合不是“短文一说……短文二说……”，而是说明两者怎样共同回答问题。","textChars":35,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/9sze58rq","slide":21,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/porutkje","slide":21,"bbox":[92,210,440,176]}
+{"kind":"textbox","id":"sh/onid0f2t","slide":21,"text":"短文一提供条件","textPreview":"短文一提供条件","textChars":7,"textLines":1,"bbox":[126,236,250,28]}
+{"kind":"textbox","id":"sh/nm9cru18","slide":21,"text":"平等地位、文化空间、\n接触机会与融入安排","textPreview":"平等地位、文化空间、 | 接触机会与融入安排","textChars":20,"textLines":2,"bbox":[126,287,320,62]}
+{"kind":"shape","id":"sh/2l0vypkn","slide":21,"bbox":[748,210,440,176]}
+{"kind":"textbox","id":"sh/1kru5kj2","slide":21,"text":"短文二呈现过程","textPreview":"短文二呈现过程","textChars":7,"textLines":1,"bbox":[782,236,250,28]}
+{"kind":"textbox","id":"sh/0jidwf2x","slide":21,"text":"一起学习、参与活动、\n承担共同责任","textPreview":"一起学习、参与活动、 | 承担共同责任","textChars":17,"textLines":2,"bbox":[782,287,320,62]}
+{"kind":"shape","id":"sh/fi9c3a1c","slide":21,"bbox":[568,245,144,92]}
+{"kind":"textbox","id":"sh/ehgvu5kr","slide":21,"text":"共同\n认同","textPreview":"共同 | 认同","textChars":5,"textLines":2,"bbox":[568,259,144,55]}
+{"kind":"shape","id":"sh/lgbe14jm","slide":21,"bbox":[92,454,1096,2]}
+{"kind":"textbox","id":"sh/kf2d8zi1","slide":21,"text":"把编号改写成判断","textPreview":"把编号改写成判断","textChars":8,"textLines":1,"bbox":[92,483,300,28]}
+{"kind":"textbox","id":"sh/ipcjmhw7","slide":21,"text":"制度安排让不同群体有平等地位和相遇的机会；学校、社区与国民服役中的共同经历，\n则把“有机会接触”转化为理解、尊重与较稳定的归属感。","textPreview":"制度安排让不同群体有平等地位和相遇的机会；学校、社区与国民服役中的共同经历， | 则把“有机会接触”转化为理解、尊重与较稳定的归属感。","textChars":65,"textLines":2,"bbox":[92,530,1050,70]}
+{"kind":"shape","id":"sh/jqlkfmds","slide":21,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/4ru1o7ed","slide":21,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/5c32hcvy","slide":21,"text":"课外活动在文章中的位置","textPreview":"课外活动在文章中的位置","textChars":11,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/ulcjixwb","slide":21,"text":"同一例子可以同时帮助介绍内容和评价意义，但它不构成第四个写作要求。 ","textPreview":"同一例子可以同时帮助介绍内容和评价意义，但它不构成第四个写作要求。","textChars":34,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/vml0b2dw","slide":21,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/wnu1k7e1","slide":21,"bbox":[92,205,476,218]}
+{"kind":"textbox","id":"sh/ho3idcvm","slide":21,"text":"作为政策内容","textPreview":"作为政策内容","textChars":6,"textLines":1,"bbox":[125,234,200,28]}
+{"kind":"textbox","id":"sh/ehwje1cf","slide":21,"text":"2.4  学校安排跨族群课外活动，\n让不同种族的学生一起参与。","textPreview":"2.4  学校安排跨族群课外活动， | 让不同种族的学生一起参与。","textChars":31,"textLines":2,"bbox":[125,289,365,74]}
+{"kind":"shape","id":"sh/fi5kn6d0","slide":21,"bbox":[712,205,476,218]}
+{"kind":"textbox","id":"sh/zalgjyhg","slide":21,"text":"作为政策意义","textPreview":"作为政策意义","textChars":6,"textLines":1,"bbox":[745,234,200,28]}
+{"kind":"textbox","id":"sh/y9cfatgv","slide":21,"text":"3.2／3.3  共同活动提供交流机会，\n帮助学生建立理解与共同认同。","textPreview":"3.2／3.3  共同活动提供交流机会， | 帮助学生建立理解与共同认同。","textChars":35,"textLines":2,"bbox":[745,289,365,74]}
+{"kind":"shape","id":"sh/lc3yl8z6","slide":21,"bbox":[92,480,1096,2]}
+{"kind":"textbox","id":"sh/0buxc3y1","slide":21,"text":"课堂上可以用它帮助理解“为什么需要接触机会”，但不必另行讨论各族群的优势、挑战和诉求。\n所有讨论最后都回到 1、2、3 三个写作要求。","textPreview":"课堂上可以用它帮助理解“为什么需要接触机会”，但不必另行讨论各族群的优势、挑战和诉求。 | 所有讨论最后都回到 1、2、3 三个写作要求。","textChars":67,"textLines":2,"bbox":[92,522,1040,64]}
+{"kind":"notes","id":"nt/m1wvqtk3","slide":21,"text":"本页回应课堂活动的取舍。若教师要让学生谈不同群体的经验，只宜作为 3 分钟导入，用来理解“接触机会”和“融入”的必要性；不把活动发展为独立的社会议题讨论。 "}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"回应概括性写作反馈","textShapes":43}
+{"kind":"shape","id":"sh/hgf6pcr6","slide":22,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/6987itcr","slide":22,"text":"回应概括性写作反馈","textPreview":"回应概括性写作反馈","textChars":9,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/7a18rydc","slide":22,"text":"批改时看材料怎样被使用，而不只看材料出现了几次。","textPreview":"批改时看材料怎样被使用，而不只看材料出现了几次。","textChars":24,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/k7qpgjul","slide":22,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/58zqpov6","slide":22,"text":"选择","textPreview":"选择","textChars":2,"textLines":1,"bbox":[98,210,160,36]}
+{"kind":"textbox","id":"sh/il87etcv","slide":22,"text":"我选的信息是否服务题目？","textPreview":"我选的信息是否服务题目？","textChars":12,"textLines":1,"bbox":[98,270,245,65]}
+{"kind":"textbox","id":"sh/jmh8nyd0","slide":22,"text":"整合","textPreview":"整合","textChars":2,"textLines":1,"bbox":[405,210,160,36]}
+{"kind":"textbox","id":"sh/43u9snu5","slide":22,"text":"两则材料是否在同一回答中发生关系？","textPreview":"两则材料是否在同一回答中发生关系？","textChars":17,"textLines":1,"bbox":[405,270,300,65]}
+{"kind":"textbox","id":"sh/p43q1sva","slide":22,"text":"改写","textPreview":"改写","textChars":2,"textLines":1,"bbox":[770,210,160,36]}
+{"kind":"textbox","id":"sh/p4z6tcri","slide":22,"text":"我是否用自己的语言表达材料？","textPreview":"我是否用自己的语言表达材料？","textChars":14,"textLines":1,"bbox":[770,270,285,65]}
+{"kind":"textbox","id":"sh/436507qx","slide":22,"text":"语体","textPreview":"语体","textChars":2,"textLines":1,"bbox":[1080,210,120,36]}
+{"kind":"textbox","id":"sh/3ixor29c","slide":22,"text":"读者能听出我是向谁说话吗？","textPreview":"读者能听出我是向谁说话吗？","textChars":13,"textLines":1,"bbox":[1080,270,125,86]}
+{"kind":"textbox","id":"sh/2honyx8r","slide":22,"text":"一个优点：__________     下一次我先做到：__________","textPreview":"一个优点：__________     下一次我先做到：__________","textChars":38,"textLines":1,"bbox":[98,505,1020,42]}
+{"kind":"shape","id":"sh/gf65w7ql","slide":22,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/fexon290","slide":22,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/udonux8v","slide":22,"text":"从编号到限时写作","textPreview":"从编号到限时写作","textChars":8,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/1cj61w7q","slide":22,"text":"按题目要点组织文章；提交前分别检查“内容”与“表达”。 ","textPreview":"按题目要点组织文章；提交前分别检查“内容”与“表达”。","textChars":28,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/0bap8rq5","slide":22,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/krihkz2d","slide":22,"bbox":[78,205,184,138]}
+{"kind":"textbox","id":"sh/lsrit4jy","slide":22,"text":"开头","textPreview":"开头","textChars":2,"textLines":1,"bbox":[92,225,156,32]}
+{"kind":"textbox","id":"sh/yp0zipk7","slide":22,"text":"约30字\n说明议题与对象","textPreview":"约30字 | 说明议题与对象","textChars":12,"textLines":2,"bbox":[92,274,156,50]}
+{"kind":"shape","id":"sh/jq90ru1s","slide":22,"bbox":[296,205,184,138]}
+{"kind":"textbox","id":"sh/wnihgf2h","slide":22,"text":"①","textPreview":"①","textChars":1,"textLines":1,"bbox":[310,225,156,32]}
+{"kind":"textbox","id":"sh/xoripkj2","slide":22,"text":"约70字\n选①A1、①A2","textPreview":"约70字 | 选①A1、①A2","textChars":13,"textLines":2,"bbox":[310,274,156,50]}
+{"kind":"shape","id":"sh/al0zepkb","slide":22,"bbox":[514,205,184,138]}
+{"kind":"textbox","id":"sh/bm9gnu1w","slide":22,"text":"②","textPreview":"②","textChars":1,"textLines":1,"bbox":[528,225,156,32]}
+{"kind":"textbox","id":"sh/ozyhcf25","slide":22,"text":"约70字\n整合②A、②B","textPreview":"约70字 | 整合②A、②B","textChars":12,"textLines":2,"bbox":[528,274,156,50]}
+{"kind":"shape","id":"sh/907ylkjq","slide":22,"bbox":[732,205,184,138]}
+{"kind":"textbox","id":"sh/rup0va5s","slide":22,"text":"③","textPreview":"③","textChars":1,"textLines":1,"bbox":[746,225,156,32]}
+{"kind":"textbox","id":"sh/qtwz2547","slide":22,"text":"约90字\n作出整合判断","textPreview":"约90字 | 作出整合判断","textChars":11,"textLines":2,"bbox":[746,274,156,50]}
+{"kind":"shape","id":"sh/dw7ixkni","slide":22,"bbox":[950,205,184,138]}
+{"kind":"textbox","id":"sh/cvy14fmx","slide":22,"text":"结尾","textPreview":"结尾","textChars":2,"textLines":1,"bbox":[964,225,156,32]}
+{"kind":"textbox","id":"sh/zyp0za5o","slide":22,"text":"约30字\n回应核心问题","textPreview":"约30字 | 回应核心问题","textChars":11,"textLines":2,"bbox":[964,274,156,50]}
+{"kind":"shape","id":"sh/exgj6p43","slide":22,"bbox":[92,410,500,172]}
+{"kind":"textbox","id":"sh/1k7i1knu","slide":22,"text":"内容 15 分","textPreview":"内容 15 分","textChars":7,"textLines":1,"bbox":[122,434,180,28]}
+{"kind":"textbox","id":"sh/0jy18fm9","slide":22,"text":"□ 三个要点都回应了吗？\n□ 两则短文都发挥作用了吗？\n□ 我的判断能回到材料吗？","textPreview":"□ 三个要点都回应了吗？ | □ 两则短文都发挥作用了吗？ | □ 我的判断能回到材料吗？","textChars":41,"textLines":3,"bbox":[122,478,390,84]}
+{"kind":"shape","id":"sh/nm903u5k","slide":22,"bbox":[666,410,522,172]}
+{"kind":"textbox","id":"sh/ml0jap4f","slide":22,"text":"写作 10 分","textPreview":"写作 10 分","textChars":7,"textLines":1,"bbox":[696,434,180,28]}
+{"kind":"textbox","id":"sh/65836tcb","slide":22,"text":"□ 语气适合校报读者吗？\n□ 我用自己的话组织了吗？\n□ 250–350 字，字词与标点准确吗？","textPreview":"□ 语气适合校报读者吗？ | □ 我用自己的话组织了吗？ | □ 250–350 字，字词与标点准确吗？","textChars":48,"textLines":3,"bbox":[696,478,410,84]}
+{"kind":"textbox","id":"sh/7qhkzytw","slide":22,"text":"反馈只留一个内容目标和一个写作目标，例如：③段要真正整合两篇材料。","textPreview":"反馈只留一个内容目标和一个写作目标，例如：③段要真正整合两篇材料。","textChars":33,"textLines":1,"bbox":[92,620,1050,30]}
+{"kind":"shape","id":"sh/8rql83uh","slide":22,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/tsz218b2","slide":22,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/ut83adcn","slide":22,"text":"写前计划与交稿检查","textPreview":"写前计划与交稿检查","textChars":9,"textLines":1,"bbox":[64,55,1120,46]}
+{"kind":"textbox","id":"sh/vuhk3it8","slide":22,"text":"一段处理一个方面，让读者清楚看见“原因、内容、意义”。 ","textPreview":"一段处理一个方面，让读者清楚看见“原因、内容、意义”。","textChars":28,"textLines":1,"bbox":[64,112,1120,28]}
+{"kind":"shape","id":"sh/gvqlcnud","slide":22,"bbox":[64,153,106,5]}
+{"kind":"shape","id":"sh/hwz258by","slide":22,"bbox":[78,205,184,138]}
+{"kind":"textbox","id":"sh/ax4jy9c3","slide":22,"text":"开头","textPreview":"开头","textChars":2,"textLines":1,"bbox":[92,225,156,32]}
+{"kind":"textbox","id":"sh/byxkreto","slide":22,"text":"约30字\n点出多种族社会","textPreview":"约30字 | 点出多种族社会","textChars":12,"textLines":2,"bbox":[92,273,156,54]}
+{"kind":"shape","id":"sh/ds36xcv6","slide":22,"bbox":[296,205,184,138]}
+{"kind":"textbox","id":"sh/sru54rel","slide":22,"text":"第一段","textPreview":"第一段","textChars":3,"textLines":1,"bbox":[310,225,156,32]}
+{"kind":"textbox","id":"sh/rqlovmdg","slide":22,"text":"原因\n选 1.1、1.2","textPreview":"原因 | 选 1.1、1.2","textChars":12,"textLines":2,"bbox":[310,273,156,54]}
+{"kind":"shape","id":"sh/qpcn2hwv","slide":22,"bbox":[514,205,184,138]}
+{"kind":"textbox","id":"sh/1gn61wvi","slide":22,"text":"第二段","textPreview":"第二段","textChars":3,"textLines":1,"bbox":[528,225,156,32]}
+{"kind":"textbox","id":"sh/0vu58rex","slide":22,"text":"内容\n按 2.1–2.4 分类","textPreview":"内容 | 按 2.1–2.4 分类","textChars":15,"textLines":2,"bbox":[528,273,156,54]}
+{"kind":"shape","id":"sh/fulozmdc","slide":22,"bbox":[732,205,184,138]}
+{"kind":"textbox","id":"sh/etcn6hwr","slide":22,"text":"第三段","textPreview":"第三段","textChars":3,"textLines":1,"bbox":[746,225,156,32]}
+{"kind":"textbox","id":"sh/hkjmpsvy","slide":22,"text":"意义\n用 3.1–3.5 评价","textPreview":"意义 | 用 3.1–3.5 评价","textChars":15,"textLines":2,"bbox":[746,273,156,54]}
+{"kind":"shape","id":"sh/gza5wnet","slide":22,"bbox":[950,205,184,138]}
+{"kind":"textbox","id":"sh/8fyxsrql","slide":22,"text":"结尾","textPreview":"结尾","textChars":2,"textLines":1,"bbox":[964,225,156,32]}
+{"kind":"textbox","id":"sh/tg7e1w76","slide":22,"text":"约30字\n回扣政策价值","textPreview":"约30字 | 回扣政策价值","textChars":11,"textLines":2,"bbox":[964,273,156,54]}
+{"kind":"shape","id":"sh/6dwfqh8v","slide":22,"bbox":[92,410,1096,164]}
+{"kind":"textbox","id":"sh/7e5wzm90","slide":22,"text":"三项检查","textPreview":"三项检查","textChars":4,"textLines":1,"bbox":[122,434,150,28]}
+{"kind":"textbox","id":"sh/gjyxwbqx","slide":22,"text":"□ 第一段解释的是“为什么”，没有提前罗列措施\n□ 第二段按类别介绍政策内容，不写成材料流水账\n□ 第三段写出政策带来的影响，并回到材料说明","textPreview":"□ 第一段解释的是“为什么”，没有提前罗列措施 | □ 第二段按类别介绍政策内容，不写成材料流水账 | □ 第三段写出政策带来的影响，并回到材料说明","textChars":70,"textLines":3,"bbox":[122,478,870,85]}
+{"kind":"textbox","id":"sh/hk7e5g7i","slide":22,"text":"再检查：两篇短文都用到吗？是否用自己的话？字数、字词与标点准确吗？","textPreview":"再检查：两篇短文都用到吗？是否用自己的话？字数、字词与标点准确吗？","textChars":33,"textLines":1,"bbox":[92,616,1080,30]}
+{"kind":"notes","id":"nt/5onypobq","slide":22,"text":"限时写作前，学生用本页计划三个主体段。批改时先检查三项任务是否完成，再看材料选择、改写和表达。字数与评分可沿用课程既有要求。 "}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"课文三","textShapes":4}
+{"kind":"shape","id":"sh/xovqhcz2","slide":23,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/90vqdczq","slide":23,"text":"课文三","textPreview":"课文三","textChars":3,"textLines":1,"bbox":[66,100,220,36]}
+{"kind":"textbox","id":"sh/8zm9k7y5","slide":23,"text":"文化入侵故宫\n星巴克的伪问题","textPreview":"文化入侵故宫 | 星巴克的伪问题","textChars":14,"textLines":2,"bbox":[64,178,460,145]}
+{"kind":"textbox","id":"sh/v2d8fmhw","slide":23,"text":"议论文阅读、论证与评价","textPreview":"议论文阅读、论证与评价","textChars":11,"textLines":1,"bbox":[66,354,430,120]}
+{"kind":"textbox","id":"sh/a14rmhgb","slide":23,"text":"阅读要落到证据；写作要回应目的和受众。","textPreview":"阅读要落到证据；写作要回应目的和受众。","textChars":19,"textLines":1,"bbox":[66,554,440,40]}
+{"kind":"notes","id":"nt/c7uhcr6t","slide":23,"text":"本课为独立议论文阅读。先让学生从标题说出他们预测的争议，再读课文验证标题是否等于作者真正的立场。"}
+{"kind":"slide","id":"sl/7qto7e10","slide":24,"title":"争议的表面与核心","textShapes":7}
+{"kind":"shape","id":"sh/mtwz6h0f","slide":24,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/1sfqxsv6","slide":24,"text":"争议的表面与核心","textPreview":"争议的表面与核心","textChars":8,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/0r6p4nul","slide":24,"text":"一间星巴克进驻故宫，为什么会引起“文化入侵”的讨论？","textPreview":"一间星巴克进驻故宫，为什么会引起“文化入侵”的讨论？","textChars":26,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/nux8zidc","slide":24,"bbox":[64,150,106,5]}
+{"kind":"shape","id":"sh/2to76dcr","slide":24,"bbox":[72,190,430,335]}
+{"kind":"textbox","id":"sh/9wzq1svi","slide":24,"text":"插图位置","textPreview":"插图位置","textChars":4,"textLines":1,"bbox":[96,212,382,32]}
+{"kind":"shape","id":"sh/ov6p8nux","slide":24,"bbox":[122,264,330,0]}
+{"kind":"textbox","id":"sh/3ydonyd8","slide":24,"text":"建议搜寻：\n故宫外景与现代咖啡店招牌的对照\n\n选择版权清晰、没有人物特写的图片。","textPreview":"建议搜寻： | 故宫外景与现代咖啡店招牌的对照 |  | 选择版权清晰、没有人物特写的图片。","textChars":40,"textLines":4,"bbox":[106,292,362,205]}
+{"kind":"textbox","id":"sh/ix47utcn","slide":24,"text":"标题中的问题","textPreview":"标题中的问题","textChars":6,"textLines":1,"bbox":[600,205,400,40]}
+{"kind":"textbox","id":"sh/8veh8ril","slide":24,"text":"“星巴克在故宫”\n是不是文化入侵？","textPreview":"“星巴克在故宫” | 是不是文化入侵？","textChars":17,"textLines":2,"bbox":[600,275,470,92]}
+{"kind":"textbox","id":"sh/9wni1wjq","slide":24,"text":"阅读后再问：\n作者认为真正需要讨论的是什么？","textPreview":"阅读后再问： | 作者认为真正需要讨论的是什么？","textChars":22,"textLines":2,"bbox":[600,430,500,90]}
+{"kind":"notes","id":"nt/7qto7e10","slide":24,"text":"将此处替换成一张具有对比感的横向照片。投影后先让学生写下“我以为问题在于……”。"}
+{"kind":"slide","id":"sl/69wfm9o7","slide":25,"title":"阅读路线","textShapes":11}
+{"kind":"shape","id":"sh/8ba98bqt","slide":25,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/xg7axgf2","slide":25,"text":"阅读路线","textPreview":"阅读路线","textChars":4,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/cfyt4beh","slide":25,"text":"先追踪作者的思路，再评价他的结论。","textPreview":"先追踪作者的思路，再评价他的结论。","textChars":17,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/napsr6x0","slide":25,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/29wby1wf","slide":25,"text":"第 1 段","textPreview":"第 1 段","textChars":5,"textLines":1,"bbox":[100,205,180,36]}
+{"kind":"textbox","id":"sh/pc7atgf6","slide":25,"text":"初进故宫的错愕","textPreview":"初进故宫的错愕","textChars":7,"textLines":1,"bbox":[100,270,220,42]}
+{"kind":"textbox","id":"sh/obyt0bel","slide":25,"text":"第 3 段","textPreview":"第 3 段","textChars":5,"textLines":1,"bbox":[390,205,180,36]}
+{"kind":"textbox","id":"sh/fm5snmx4","slide":25,"text":"什么让作者“又难堪又心痛”？","textPreview":"什么让作者“又难堪又心痛”？","textChars":14,"textLines":1,"bbox":[390,270,270,74]}
+{"kind":"textbox","id":"sh/elwbu1wj","slide":25,"text":"第 4 段","textPreview":"第 4 段","textChars":5,"textLines":1,"bbox":[760,205,180,36]}
+{"kind":"textbox","id":"sh/wza9cbqp","slide":25,"text":"公众争论了什么？","textPreview":"公众争论了什么？","textChars":8,"textLines":1,"bbox":[760,270,230,42]}
+{"kind":"textbox","id":"sh/h0jalgra","slide":25,"text":"第 5 至 8 段","textPreview":"第 5 至 8 段","textChars":9,"textLines":1,"bbox":[1030,205,190,36]}
+{"kind":"textbox","id":"sh/uxsra18j","slide":25,"text":"作者把焦点放在哪里？","textPreview":"作者把焦点放在哪里？","textChars":10,"textLines":1,"bbox":[1030,270,180,74]}
+{"kind":"textbox","id":"sh/vy1sj694","slide":25,"text":"小组汇报句：这一部分的事实是……；作者的判断是……。","textPreview":"小组汇报句：这一部分的事实是……；作者的判断是……。","textChars":26,"textLines":1,"bbox":[100,500,1020,40]}
+{"kind":"notes","id":"nt/69wfm9o7","slide":25,"text":"把课文分为四段阅读。每组负责一部分，分享时只用一句“作者在这里想让读者看到……”。"}
+{"kind":"slide","id":"sl/l0bepsfm","slide":26,"title":"把问题读清楚","textShapes":7}
+{"kind":"shape","id":"sh/krat8z2x","slide":26,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/uhk36lk7","slide":26,"text":"把问题读清楚","textPreview":"把问题读清楚","textChars":6,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/vitkzqlc","slide":26,"text":"“伪问题”不是否认争议，而是把注意力从口号转向场地管理与文化形象。","textPreview":"“伪问题”不是否认争议，而是把注意力从口号转向场地管理与文化形象。","textChars":33,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/8fil4b21","slide":26,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/tgr2xg3m","slide":26,"text":"公众最容易争论的事","textPreview":"公众最容易争论的事","textChars":9,"textLines":1,"bbox":[100,205,410,40]}
+{"kind":"textbox","id":"sh/md0321kv","slide":26,"text":"星巴克该不该离开故宫？","textPreview":"星巴克该不该离开故宫？","textChars":11,"textLines":1,"bbox":[100,285,410,56]}
+{"kind":"shape","id":"sh/7e9kv6lg","slide":26,"bbox":[635,195,0,270]}
+{"kind":"textbox","id":"sh/kbil0r2p","slide":26,"text":"作者真正追问的事","textPreview":"作者真正追问的事","textChars":8,"textLines":1,"bbox":[750,205,410,40]}
+{"kind":"textbox","id":"sh/lcr2tw3a","slide":26,"text":"故宫要留下怎样的整体形象？\n管理者怎样安排空间、商店与游客体验？","textPreview":"故宫要留下怎样的整体形象？ | 管理者怎样安排空间、商店与游客体验？","textChars":32,"textLines":2,"bbox":[750,285,425,105]}
+{"kind":"textbox","id":"sh/lsja143i","slide":26,"text":"回答必须同时写出“表面争议”和“作者的核心问题”。","textPreview":"回答必须同时写出“表面争议”和“作者的核心问题”。","textChars":25,"textLines":1,"bbox":[100,505,990,40]}
+{"kind":"notes","id":"nt/l0bepsfm","slide":26,"text":"在学生读完全文后使用。让学生先完成左右两栏，再结合第 5 至 8 段修订自己的答案。"}
+{"kind":"slide","id":"sl/4vyxknqp","slide":27,"title":"论点、证据、推理","textShapes":9}
+{"kind":"shape","id":"sh/bq5gr298","slide":27,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/kn694nmx","slide":27,"text":"论点、证据、推理","textPreview":"论点、证据、推理","textChars":8,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/lofadsni","slide":27,"text":"评价议论文时，先看作者怎样把读者带到结论。","textPreview":"评价议论文时，先看作者怎样把读者带到结论。","textChars":21,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/mpor6x43","slide":27,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/7qxsfi5o","slide":27,"text":"论点","textPreview":"论点","textChars":2,"textLines":1,"bbox":[100,205,160,36]}
+{"kind":"textbox","id":"sh/8r698nm9","slide":27,"text":"作者希望读者接受什么？","textPreview":"作者希望读者接受什么？","textChars":11,"textLines":1,"bbox":[100,275,295,68]}
+{"kind":"shape","id":"sh/9sfahsnu","slide":27,"bbox":[425,308,115,0]}
+{"kind":"textbox","id":"sh/utobax4f","slide":27,"text":"证据","textPreview":"证据","textChars":2,"textLines":1,"bbox":[575,205,160,36]}
+{"kind":"textbox","id":"sh/vuxsj250","slide":27,"text":"他举了什么事例、对比或现象？","textPreview":"他举了什么事例、对比或现象？","textChars":14,"textLines":1,"bbox":[575,275,305,68]}
+{"kind":"shape","id":"sh/ju5gv294","slide":27,"bbox":[905,308,115,0]}
+{"kind":"textbox","id":"sh/ytwfmx8j","slide":27,"text":"推理","textPreview":"推理","textChars":2,"textLines":1,"bbox":[1055,205,160,36]}
+{"kind":"textbox","id":"sh/lw7yxcra","slide":27,"text":"证据怎样支持结论？","textPreview":"证据怎样支持结论？","textChars":9,"textLines":1,"bbox":[1055,275,160,68]}
+{"kind":"textbox","id":"sh/kvyxo7qp","slide":27,"text":"评价句：这个事例能说明……，但还不能完全说明……，因为……。","textPreview":"评价句：这个事例能说明……，但还不能完全说明……，因为……。","textChars":30,"textLines":1,"bbox":[100,500,1000,42]}
+{"kind":"notes","id":"nt/4vyxknqp","slide":27,"text":"让学生各找一处论点和一项对应证据。若认为推理不足，也要说明缺少什么信息。"}
+{"kind":"slide","id":"sl/3mdove10","slide":28,"title":"论证手法","textShapes":2}
+{"kind":"shape","id":"sh/exwzahkr","slide":28,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/q9cz6xkv","slide":28,"text":"论证手法","textPreview":"论证手法","textChars":4,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/ralgf21g","slide":28,"text":"作者怎样安排事例、对比和提问，来增强自己的立场？","textPreview":"作者怎样安排事例、对比和提问，来增强自己的立场？","textChars":24,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/0zehcr2x","slide":28,"bbox":[64,150,106,5]}
+{"kind":"table","id":"tb/6dwva9kv","slide":28,"name":"","rows":5,"cols":3,"preview":"手法 | 课文中可找的地方 | 可能的作用","bbox":[70,190,1140,355]}
+{"kind":"notes","id":"nt/3mdove10","slide":28,"text":"课本列有多种论证法。本页只保留最适合本篇的四种，便于学生真正找得到例子。"}
+{"kind":"slide","id":"sl/i5o3q10v","slide":29,"title":"小组讨论：文化空间与商业","textShapes":9}
+{"kind":"shape","id":"sh/idkbuxsv","slide":29,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/tk36hwby","slide":29,"text":"小组讨论：文化空间与商业","textPreview":"小组讨论：文化空间与商业","textChars":12,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/8jup8rad","slide":29,"text":"传统文化景点应该完全拒绝商业活动吗？","textPreview":"传统文化景点应该完全拒绝商业活动吗？","textChars":18,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/vmlojmto","slide":29,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/ulc7a1s3","slide":29,"text":"可以完全拒绝","textPreview":"可以完全拒绝","textChars":6,"textLines":1,"bbox":[105,220,250,42]}
+{"kind":"textbox","id":"sh/h8n6lwbu","slide":29,"text":"重点保护神圣性与整体形象。","textPreview":"重点保护神圣性与整体形象。","textChars":13,"textLines":1,"bbox":[105,295,250,78]}
+{"kind":"textbox","id":"sh/g7upcra9","slide":29,"text":"可以有条件允许","textPreview":"可以有条件允许","textChars":7,"textLines":1,"bbox":[505,220,290,42]}
+{"kind":"textbox","id":"sh/bq1o72tk","slide":29,"text":"看场地定位、品牌选择和空间设计。","textPreview":"看场地定位、品牌选择和空间设计。","textChars":16,"textLines":1,"bbox":[505,295,290,78]}
+{"kind":"textbox","id":"sh/apsnyxcz","slide":29,"text":"还需要更多资料","textPreview":"还需要更多资料","textChars":7,"textLines":1,"bbox":[925,220,250,42]}
+{"kind":"textbox","id":"sh/kf2tw7a1","slide":29,"text":"先了解管理目标、游客需求与当地居民看法。","textPreview":"先了解管理目标、游客需求与当地居民看法。","textChars":20,"textLines":1,"bbox":[925,295,250,88]}
+{"kind":"textbox","id":"sh/5gbupcrm","slide":29,"text":"讨论规则：不同意观点，可以；忽略证据，不可以。","textPreview":"讨论规则：不同意观点，可以；忽略证据，不可以。","textChars":23,"textLines":1,"bbox":[100,520,950,42]}
+{"kind":"notes","id":"nt/i5o3q10v","slide":29,"text":"先让每位学生写下个人立场，再组成四人小组。要求学生至少引用课文一个例子，也可以保留条件式立场。"}
+{"kind":"slide","id":"sl/wnqh07ex","slide":30,"title":"从议论文到自己的写作","textShapes":10}
+{"kind":"shape","id":"sh/cbaxczit","slide":30,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/po72d8nm","slide":30,"text":"从议论文到自己的写作","textPreview":"从议论文到自己的写作","textChars":10,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/o3yl4361","slide":30,"text":"把一篇时事评论的阅读方法，迁移到自己的论证或讨论文。","textPreview":"把一篇时事评论的阅读方法，迁移到自己的论证或讨论文。","textChars":26,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/bqpkfy5s","slide":30,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/apg36do7","slide":30,"text":"题目","textPreview":"题目","textChars":2,"textLines":1,"bbox":[94,205,150,36]}
+{"kind":"textbox","id":"sh/xsr2h8ni","slide":30,"text":"传统文化受到全球化影响，是难以避免的问题。\n我们应该怎样保护传统文化？","textPreview":"传统文化受到全球化影响，是难以避免的问题。 | 我们应该怎样保护传统文化？","textChars":35,"textLines":2,"bbox":[94,270,1040,86]}
+{"kind":"shape","id":"sh/cril836d","slide":30,"bbox":[94,412,1070,0]}
+{"kind":"textbox","id":"sh/ru5k3ep8","slide":30,"text":"我的文体","textPreview":"我的文体","textChars":4,"textLines":1,"bbox":[94,465,170,34]}
+{"kind":"textbox","id":"sh/6twju9o3","slide":30,"text":"议论 / 讨论","textPreview":"议论 / 讨论","textChars":7,"textLines":1,"bbox":[94,520,230,34]}
+{"kind":"textbox","id":"sh/onqx8zix","slide":30,"text":"我的判断","textPreview":"我的判断","textChars":4,"textLines":1,"bbox":[445,465,170,34]}
+{"kind":"textbox","id":"sh/p8ze14zi","slide":30,"text":"________________","textPreview":"________________","textChars":16,"textLines":1,"bbox":[445,520,270,34]}
+{"kind":"textbox","id":"sh/2l8f6p0r","slide":30,"text":"我要用的例子","textPreview":"我要用的例子","textChars":6,"textLines":1,"bbox":[830,465,240,34]}
+{"kind":"textbox","id":"sh/3mhwzu1c","slide":30,"text":"________________","textPreview":"________________","textChars":16,"textLines":1,"bbox":[830,520,270,34]}
+{"kind":"notes","id":"nt/wnqh07ex","slide":30,"text":"提示学生先选立场与文体。不要要求全班得出同一个结论。可作为 30 分钟计划练习或卷二作文准备。"}
+{"kind":"slide","id":"sl/lcn6tkb6","slide":31,"title":"本学期的作品档案","textShapes":9}
+{"kind":"shape","id":"sh/3ud4n290","slide":31,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/dgja98fe","slide":31,"text":"本学期的作品档案","textPreview":"本学期的作品档案","textChars":8,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/cfa903yt","slide":31,"text":"每一次完成后，只记录一个稳定优势和一个下一步目标。","textPreview":"每一次完成后，只记录一个稳定优势和一个下一步目标。","textChars":25,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/zilsbyx4","slide":31,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/ehsr2dgz","slide":31,"text":"阅读证据表","textPreview":"阅读证据表","textChars":5,"textLines":1,"bbox":[100,205,230,36]}
+{"kind":"textbox","id":"sh/1k3ad8fa","slide":31,"text":"我能用哪一处细节支持推断？","textPreview":"我能用哪一处细节支持推断？","textChars":13,"textLines":1,"bbox":[100,270,300,70]}
+{"kind":"textbox","id":"sh/0jut43yp","slide":31,"text":"指导写作","textPreview":"指导写作","textChars":4,"textLines":1,"bbox":[500,205,280,36]}
+{"kind":"textbox","id":"sh/fmhszex0","slide":31,"text":"我怎样分清原因、内容和意义？","textPreview":"我怎样分清原因、内容和意义？","textChars":14,"textLines":1,"bbox":[500,270,330,70]}
+{"kind":"textbox","id":"sh/ul8rq9gf","slide":31,"text":"描写或议论文","textPreview":"描写或议论文","textChars":6,"textLines":1,"bbox":[920,205,240,36]}
+{"kind":"textbox","id":"sh/4vm5g7al","slide":31,"text":"我下一次优先改善什么？","textPreview":"我下一次优先改善什么？","textChars":11,"textLines":1,"bbox":[920,270,270,70]}
+{"kind":"shape","id":"sh/5wvmpcr6","slide":31,"bbox":[100,420,1080,0]}
+{"kind":"textbox","id":"sh/it4nexsf","slide":31,"text":"下一步目标句：下一次写作前，我先……。","textPreview":"下一步目标句：下一次写作前，我先……。","textChars":19,"textLines":1,"bbox":[100,495,800,44]}
+{"kind":"notes","id":"nt/lcn6tkb6","slide":31,"text":"本页用于期末回顾。请学生将原稿、反馈和修订稿放在一起，以便下一学期继续使用。"}
+{"kind":"slide","id":"sl/6l0j294r","slide":32,"title":"教师使用提示","textShapes":7}
+{"kind":"shape","id":"sh/qx0nqx8b","slide":32,"bbox":[0,0,1280,14]}
+{"kind":"textbox","id":"sh/kr61sfy1","slide":32,"text":"教师使用提示","textPreview":"教师使用提示","textChars":6,"textLines":1,"bbox":[64,34,1050,60]}
+{"kind":"textbox","id":"sh/lszilkfm","slide":32,"text":"这套投影片按课文与技能重新排序，教材文本仍以学校版本为准。","textPreview":"这套投影片按课文与技能重新排序，教材文本仍以学校版本为准。","textChars":29,"textLines":1,"bbox":[66,102,1050,36]}
+{"kind":"shape","id":"sh/6t8jupg7","slide":32,"bbox":[64,150,106,5]}
+{"kind":"textbox","id":"sh/7uh0nuxs","slide":32,"text":"使用顺序","textPreview":"使用顺序","textChars":4,"textLines":1,"bbox":[94,205,200,36]}
+{"kind":"textbox","id":"sh/8vq1wzyd","slide":32,"text":"《假黎婆》\n指导写作：新加坡多种族政策\n《文化入侵故宫星巴克的伪问题》","textPreview":"《假黎婆》 | 指导写作：新加坡多种族政策 | 《文化入侵故宫星巴克的伪问题》","textChars":35,"textLines":3,"bbox":[94,270,470,155]}
+{"kind":"shape","id":"sh/twzipkfy","slide":32,"bbox":[660,195,0,300]}
+{"kind":"textbox","id":"sh/mx4zilg3","slide":32,"text":"课堂原则","textPreview":"课堂原则","textChars":4,"textLines":1,"bbox":[775,205,200,36]}
+{"kind":"textbox","id":"sh/nyd0bqxo","slide":32,"text":"先独立思考，再讨论。\n答案必须回到材料。\n反馈只给一个优点和一个下一步。","textPreview":"先独立思考，再讨论。 | 答案必须回到材料。 | 反馈只给一个优点和一个下一步。","textChars":36,"textLines":3,"bbox":[775,270,355,145]}
+{"kind":"textbox","id":"sh/ry94z29w","slide":32,"text":"中文文字均设为 STKaiti（楷体）。","textPreview":"中文文字均设为 STKaiti（楷体）。","textChars":20,"textLines":1,"bbox":[94,535,600,36]}
+{"kind":"notes","id":"nt/6l0j294r","slide":32,"text":"教师页，可不投影。检查教材页码、课时安排和校内任务字数。插图位置均可替换，图片只用于导入或场景感，不承担阅读证据。"}
