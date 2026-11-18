@@ -1,8 +1,16 @@
 /* 文言自学 · 单页应用（无依赖） */
 (function () {
-  const UNITS = window.CAIWEN_UNITS || [];
+  // 两套教材：《匠心》（课堂教材）与《采文》（自学拓展）
+  const BOOKS = [
+    { id: "jiangxin", name: "匠心", cls: "jx", tag: "课堂教材", units: window.JIANGXIN_UNITS || [],
+      blurb: "教材《匠心》五个单元里的文言文：记李歌、节庵方公墓表、蜀贾、湖心亭看雪、《天工开物》序。每篇都有原文点读、译文、练习和词语卡片。" },
+    { id: "caiwen", name: "采文", cls: "cw", tag: "自学拓展", units: window.CAIWEN_UNITS || [],
+      blurb: "《采文》全书五个单元，每个单元一篇精讲、三篇自测。适合课外自学、拓展阅读和考前练手。" }
+  ].filter(b => b.units.length);
+  BOOKS.forEach(b => b.units.forEach(u => { u.book = b; }));
+  const UNITS = BOOKS.flatMap(b => b.units);
   const $ = (s, el = document) => el.querySelector(s);
-  const app = $("#app"), nav = $("#topnav"), pop = $("#pop");
+  const app = $("#app"), nav = $("#topnav"), bar = $("#bookbar"), pop = $("#pop");
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   // ---------- storage ----------
@@ -76,16 +84,37 @@
   }
 
   // ---------- routing ----------
+  const NUM = "一二三四五六七八九十";
+  const unitNo = u => NUM[u.book.units.indexOf(u)] || "";
+  const bookTitle = b => `《${b.name}》`;
+  const bookStat = b => {
+    const all = b.units.flatMap(u => u.texts.map(t => scoreOf(u, t)));
+    return { texts: all.length, started: all.filter(s => s.done).length };
+  };
+
   function route() {
     pop.hidden = true;
     const h = location.hash.replace(/^#\/?/, "");
     const [a, b, c] = h.split("/");
-    nav.innerHTML = UNITS.map(u => `<a href="#/${u.id}" class="${a === u.id ? "on" : ""}">${esc(u.title)}</a>`).join("") +
+    const bk = a === "b" ? BOOKS.find(x => x.id === b) : null;
+    const u = UNITS.find(x => x.id === a);
+    const cur = bk || (u && u.book);
+    nav.innerHTML = `<a href="#/" class="${!h ? "on" : ""}">首页</a>` +
+      BOOKS.map(x => `<a href="#/b/${x.id}" class="${cur === x ? "on" : ""}">${bookTitle(x)}</a>`).join("") +
+      `<a href="#/words" class="${a === "words" ? "on" : ""}">全部词语</a>` +
       `<a href="#/method" class="${a === "method" ? "on" : ""}">三遍读法</a>`;
+    bar.innerHTML = cur ? `<div class="bookbar ${cur.cls}"><a class="bk" href="#/b/${cur.id}">${bookTitle(cur)}</a>` +
+      cur.units.map(x => `<a href="#/${x.id}" class="${u === x ? "on" : ""}">第${unitNo(x)}单元 ${esc(x.title)}</a>`).join("") + `</div>` : "";
+    if (!UNITS.length) { app.innerHTML = "<p>没有内容。</p>"; return; }
     if (a === "method") return pageMethod();
-    const u = UNITS.find(x => x.id === a) || UNITS[0];
-    if (!u) { app.innerHTML = "<p>没有内容。</p>"; return; }
-    if (b === "words") return pageWords(u);
+    if (a === "words") return pageWords(UNITS, "#/", "首页", "全部词语卡片");
+    if (a === "b") {
+      if (!bk) { pageHome(); window.scrollTo(0, 0); return; }
+      if (c === "words") return pageWords(bk.units, `#/b/${bk.id}`, bookTitle(bk), `${bookTitle(bk)}词语卡片`);
+      pageBook(bk); window.scrollTo(0, 0); return;
+    }
+    if (!u) { pageHome(); window.scrollTo(0, 0); return; }
+    if (b === "words") return pageWords([u], `#/${u.id}`, u.title, "词语卡片");
     const t = u.texts.find(x => x.id === b);
     if (t) return pageText(u, t, c || "read");
     pageUnit(u);
@@ -94,9 +123,61 @@
   window.addEventListener("hashchange", route);
 
   // ---------- pages ----------
+  const chipsHTML = u => u.texts.map(t => { const s = scoreOf(u, t); return `
+    <a class="chip" href="#/${u.id}/${t.id}"><b>${esc(t.title)}</b><span>${esc(t.author)} · ${esc(t.kind)}${s.done ? ` · ${s.got}/${s.total}` : ""}</span></a>`; }).join("");
+
+  function pageHome() {
+    const last = S("last");
+    const lu = last && UNITS.find(x => x.id === last.u), lt = lu && lu.texts.find(x => x.id === last.t);
+    app.innerHTML = `
+      <section class="hero">
+        <h1>文言自学</h1>
+        <p>IGCSE 0509 中文第一语言 · 文言文阅读。先选一本书，再选单元和文章。原文里带虚线的词可以点开看注释。</p>
+      </section>
+      <div class="books">
+        ${BOOKS.map(b => {
+          const st = bookStat(b);
+          return `
+        <a class="book ${b.cls}" href="#/b/${b.id}">
+          <span class="tag">${esc(b.tag)}</span>
+          <span class="bname">${esc(b.name)}</span>
+          <span class="bsub">${b.units.length} 个单元 · ${st.texts} 篇</span>
+          <span class="bdesc">${esc(b.blurb)}</span>
+          <span class="blist">${b.units.map(u => `<i>第${unitNo(u)}单元 ${esc(u.title)}</i>`).join("")}</span>
+          <span class="bprog"><span class="bar"><i style="width:${st.texts ? Math.round(100 * st.started / st.texts) : 0}%"></i></span><span>${st.started ? `已开始 ${st.started}/${st.texts} 篇` : "还没开始"}</span></span>
+          <span class="go">进入《${esc(b.name)}》 →</span>
+        </a>`; }).join("")}
+      </div>
+      ${lt ? `<a class="resume" href="#/${lu.id}/${lt.id}/${last.tab || "read"}"><span>继续上次</span><b>${esc(lt.title)}</b><small>《${esc(lu.book.name)}》第${unitNo(lu)}单元</small></a>` : ""}
+      <h2>学习工具</h2>
+      <div class="grid">
+        <a class="tile" href="#/words"><div class="k">复习</div><h3>全部词语卡片</h3><div class="a">两本书的实词 · 虚词 · 特殊句式</div></a>
+        <a class="tile" href="#/method"><div class="k">方法</div><h3>三遍读法</h3><div class="a">读没有注释的文言文，按三遍走</div></a>
+      </div>`;
+    window.scrollTo(0, 0);
+  }
+
+  function pageBook(b) {
+    const st = bookStat(b);
+    app.innerHTML = `
+      <a class="back" href="#/">← 首页</a>
+      <div class="bhead ${b.cls}"><span class="tag">${esc(b.tag)}</span><h1>《${esc(b.name)}》</h1></div>
+      <p class="sub">${b.units.length} 个单元 · ${st.texts} 篇 · 已开始 ${st.started} 篇。${esc(b.blurb)}</p>
+      <p><a class="pill" href="#/b/${b.id}/words">本书词语卡片</a></p>
+      ${b.units.map(u => `
+        <section class="card">
+          <div class="uh"><a href="#/${u.id}"><h2>第${unitNo(u)}单元　${esc(u.title)}</h2></a><a class="more" href="#/${u.id}/words">词语卡片</a></div>
+          ${u.term ? `<div class="term">${esc(u.term)}</div>` : ""}
+          <p class="sub">${esc(u.intro)}</p>
+          <div class="chips">${chipsHTML(u)}</div>
+        </section>`).join("")}`;
+  }
+
   function pageUnit(u) {
     app.innerHTML = `
-      <h1>${esc(u.title)}</h1>
+      <a class="back" href="#/b/${u.book.id}">← 《${esc(u.book.name)}》</a>
+      <h1>第${unitNo(u)}单元　${esc(u.title)}</h1>
+      ${u.term ? `<div class="term">${esc(u.term)}</div>` : ""}
       <p class="sub">${esc(u.intro)}</p>
       <div class="grid">
         ${u.texts.map(t => { const s = scoreOf(u, t); return `
@@ -121,9 +202,10 @@
   }
 
   function pageText(u, t, tab) {
+    S("last", { u: u.id, t: t.id, tab: tab || "read" });
     const s = scoreOf(u, t);
     app.innerHTML = `
-      <a class="back" href="#/${u.id}">← ${esc(u.title)}</a>
+      <a class="back" href="#/${u.id}">← 第${unitNo(u)}单元　${esc(u.title)}</a>
       <h1>${esc(t.title)}</h1>
       <p class="sub">${esc(t.author)} · ${esc(t.kind)}</p>
       <div class="tabs">
@@ -191,7 +273,7 @@
           } else if (q.items) {
             const marks = r.marks || {};
             body = q.items.map((it, i) => `
-              <div class="st">(${"ⅰⅱⅲ"[i]}) ${it.s}</div>
+              <div class="st">(${"ⅰⅱⅲⅳⅴⅵ"[i]}) ${it.s}</div>
               <div class="ans">
                 <textarea data-q="${q.id}" data-i="${i}" placeholder="写在这里…">${esc((r.text || {})[i] || "")}</textarea>
                 <div class="row">
@@ -200,7 +282,7 @@
                   <button class="mk ${marks[i] === true ? "on" : ""}" data-q="${q.id}" data-i="${i}" data-v="1">✓ 对</button>
                   <button class="mk bad ${marks[i] === false ? "on" : ""}" data-q="${q.id}" data-i="${i}" data-v="0">✗ 错</button>
                 </div>
-                <div class="key" data-key="${q.id}-${i}" ${r.shown && r.shown[i] ? "" : "hidden"}><b>要点</b>${esc(it.key)}</div>
+                <div class="key" data-key="${q.id}-${i}" ${r.shown && r.shown[i] ? "" : "hidden"}><b>要点</b>${esc(it.key)}${q.hint && i === q.items.length - 1 ? `<div class="hint">${esc(q.hint)}</div>` : ""}</div>
               </div>`).join("");
           } else {
             body = `<div class="ans">
@@ -263,15 +345,15 @@
     el.querySelectorAll(".fc").forEach(c => c.onclick = () => c.querySelector(".d").classList.toggle("hide"));
   }
 
-  function pageWords(u) {
+  function pageWords(units, backHref, backLabel, heading) {
     const which = S("wordsTab") || "shici";
     const all = { shici: [], xuci: [], jushi: [] };
-    u.texts.forEach(t => { t.glossary.shici.forEach(x => all.shici.push([t, ...x])); t.glossary.xuci.forEach(x => all.xuci.push([t, ...x])); t.glossary.jushi.forEach(x => all.jushi.push([t, x[0], "", x[1]])); });
+    units.forEach(u => u.texts.forEach(t => { t.glossary.shici.forEach(x => all.shici.push([t, ...x])); t.glossary.xuci.forEach(x => all.xuci.push([t, ...x])); t.glossary.jushi.forEach(x => all.jushi.push([t, x[0], "", x[1]])); }));
     const mark = (s, w) => esc(s).replace(esc(w), `<em>${esc(w)}</em>`);
     const list = all[which];
     app.innerHTML = `
-      <a class="back" href="#/${u.id}">← ${esc(u.title)}</a>
-      <h1>词语卡片</h1>
+      <a class="back" href="${backHref}">← ${esc(backLabel)}</a>
+      <h1>${esc(heading)}</h1>
       <p class="sub">点卡片显示或隐藏解释。先自己说出意思，再翻开核对。</p>
       <div class="tabs">
         <button data-w="shici" class="${which === "shici" ? "on" : ""}">实词 ${all.shici.length}</button>
@@ -281,7 +363,7 @@
         <button id="shuffle">打乱</button><button id="showAll">全部翻开</button>
       </div>
       <div class="gl" id="gl">${list.map(x => `<div class="fc"><div class="s">${x[2] ? mark(x[1], x[2]) : esc(x[1])}</div><div class="d hide">${esc(x[3])}</div><div class="src">${esc(x[0].title)}</div></div>`).join("")}</div>`;
-    app.querySelectorAll(".tabs [data-w]").forEach(b => b.onclick = () => { S("wordsTab", b.dataset.w); pageWords(u); });
+    app.querySelectorAll(".tabs [data-w]").forEach(b => b.onclick = () => { S("wordsTab", b.dataset.w); pageWords(units, backHref, backLabel, heading); });
     bindCards(app);
     $("#shuffle").onclick = () => { const gl = $("#gl"); [...gl.children].sort(() => Math.random() - .5).forEach(c => gl.appendChild(c)); };
     $("#showAll").onclick = () => app.querySelectorAll(".fc .d").forEach(d => d.classList.remove("hide"));
