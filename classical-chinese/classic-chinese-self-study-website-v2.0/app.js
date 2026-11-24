@@ -174,7 +174,6 @@
     app.innerHTML = `
       <div class="home2">
         <header class="hhead">
-          <p>IGCSE 0509 中文第一语言 · 文言文阅读自学。先读原文，遇到带红点的字词点一下看注释，再对照译文，最后自测。</p>
           <div class="acts">
             <a class="go" href="${href}">${lt ? "继续上次" : "从这里开始读"} →<small>${esc(shortTitle(et))} · ${tabName}</small></a>
             ${window.V ? `<a class="daily" href="#/p/daily">每日一练${streak ? ` · 已连续 ${streak} 天` : ""} →</a>` : ""}

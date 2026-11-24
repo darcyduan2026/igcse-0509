@@ -2,8 +2,7 @@
    《匠心》靛蓝布面，《采文》枣红布面；字体用楷体（--kai，来自 style.css）。 */
 .jx{--vc:#24405f}.cw{--vc:#8f3429}
 .home2{display:flex;flex-direction:column;gap:30px}
-.hhead{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap}
-.hhead p{margin:0;color:var(--mute);font-size:.95em;max-width:26em}
+.hhead{display:flex;align-items:flex-end;justify-content:flex-end;gap:18px;flex-wrap:wrap}
 .hhead .acts{display:flex;gap:26px;align-items:flex-end;flex-wrap:wrap}
 .hhead .go{font:900 1.3em var(--kai);border-bottom:2px solid var(--red);padding-bottom:2px}
 .hhead .go small{display:block;font:400 .65em var(--sans);color:var(--mute)}
