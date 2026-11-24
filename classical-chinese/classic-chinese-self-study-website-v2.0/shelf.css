@@ -1,0 +1,76 @@
+/* 首页：线装书封面（方向 A）。所有尺寸用 em，由 .book 的 font-size 随栏宽缩放（372px 宽 = 37.2em）。
+   《匠心》靛蓝布面，《采文》枣红布面；字体用楷体（--kai，来自 style.css）。 */
+.jx{--vc:#24405f}.cw{--vc:#8f3429}
+.home2{display:flex;flex-direction:column;gap:30px}
+.hhead{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.hhead p{margin:0;color:var(--mute);font-size:.95em;max-width:26em}
+.hhead .acts{display:flex;gap:26px;align-items:flex-end;flex-wrap:wrap}
+.hhead .go{font:900 1.3em var(--kai);border-bottom:2px solid var(--red);padding-bottom:2px}
+.hhead .go small{display:block;font:400 .65em var(--sans);color:var(--mute)}
+.hhead .go:hover,.hhead .daily:hover{color:var(--red)}
+.hhead .daily{color:var(--mute);font-size:.95em;border-bottom:1px solid var(--line);padding-bottom:2px}
+
+.desk{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,300px) minmax(0,1fr);gap:28px;align-items:start;padding:6px 0 6px}
+.cell{container-type:inline-size}
+.book{--cv:var(--vc);width:100%;max-width:372px;margin:0 auto;font-size:8px;font-size:calc(min(100cqw,372px) / 37.2);transform:rotate(-1.1deg);transform-origin:50% 100%;font-family:var(--kai)}
+.book.cw{transform:rotate(.9deg);margin-top:1.6em}
+
+.cover{display:block;position:relative;height:52.8em;border-radius:.2em .5em .5em .2em;
+  --pat:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><path d='M4 4H24V24H8V12H16V16' fill='none' stroke='white' stroke-opacity='.10' stroke-width='1.6'/></svg>");
+  --noise:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .3  0 0 0 0 .25  0 0 0 0 .15  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background:
+    linear-gradient(90deg,rgba(0,0,0,0) 86%,rgba(0,0,0,.30) 94%,rgba(255,255,255,.10) 95.4%,rgba(0,0,0,.18) 100%),
+    var(--pat),var(--noise),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.055) 0 1px,transparent 1px 3px),
+    repeating-linear-gradient(90deg,rgba(0,0,0,.12) 0 1px,transparent 1px 3px),
+    linear-gradient(105deg,rgba(255,255,255,.07),rgba(0,0,0,.20)),var(--cv);
+  background-size:auto,2.8em 2.8em,220px 220px,auto,auto,auto,auto;
+  background-blend-mode:normal,normal,multiply,normal,normal,normal,normal;
+  box-shadow:-.2em .2em 0 #e7dcc0,-.4em .4em 0 #f2e9d1,-.6em .6em 0 #e2d6b8,-.8em .8em 0 #efe5cb,0 2.6em 3.4em -1.4em rgba(35,28,16,.55);
+  transition:transform .25s ease}
+.cover:hover{transform:translateY(-.8em) rotate(1deg)}
+.cover:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.cover svg.stitch{position:absolute;right:1.4em;top:0;height:100%;width:4.4em}
+.cover .corner{position:absolute;right:0;width:6.2em;height:6.2em;background:linear-gradient(135deg,#e2c477,#c79a3f);opacity:.95}
+.cover .corner.t{top:0;clip-path:polygon(0 0,100% 0,100% 100%);border-radius:0 .5em 0 0}
+.cover .corner.b{bottom:0;clip-path:polygon(100% 0,100% 100%,0 100%);border-radius:0 0 .5em 0}
+.slip{position:absolute;left:3.8em;top:4.2em;width:9.8em;height:26.2em;background:#f3ecda;display:flex;flex-direction:row-reverse;justify-content:center;gap:.8em;padding:2em .8em;
+  box-shadow:inset 0 0 0 5px #f3ecda,inset 0 0 0 6px rgba(20,20,20,.55),1px 3px 6px rgba(0,0,0,.35);color:#16181b}
+.slip b{writing-mode:vertical-rl;font:900 5.8em/1 var(--kai);letter-spacing:.14em}
+.slip i{writing-mode:vertical-rl;font-family:var(--kai);font-size:max(12px,1.5em);line-height:1;font-style:normal;color:#5b574a;letter-spacing:.2em;padding-top:.4em}
+.cover .volx{position:absolute;left:4.6em;bottom:4em;writing-mode:vertical-rl;color:rgba(255,255,255,.85);font-size:max(13px,1.7em);letter-spacing:.3em}
+.cover .open{position:absolute;left:4.6em;bottom:15em;writing-mode:vertical-rl;color:rgba(255,255,255,0);font-family:var(--kai);font-weight:700;font-size:max(14px,1.8em);letter-spacing:.3em;transition:color .25s}
+.cover:hover .open{color:rgba(255,255,255,.92)}
+
+.vols{list-style:none;margin:3em 0 0 .8em;padding:0;display:flex;flex-direction:row-reverse;justify-content:center;gap:1em}
+.vols a{display:block;writing-mode:vertical-rl;background:#f3ecda;color:#1a1c20;border-top:.4em solid var(--cv);padding:.9em .8em 1.2em;min-height:15em;font-family:var(--kai);font-weight:400;font-size:max(13px,1.7em);line-height:1.15;letter-spacing:.12em;
+  box-shadow:0 2px 0 rgba(0,0,0,.08),0 8px 14px -8px rgba(40,30,10,.45);transition:transform .18s}
+.vols a:hover{transform:translateY(-5px);color:#a8322a}
+.vols em{font-style:normal;color:#a8322a;font-size:max(12px,1.3em);margin-bottom:.5em}
+.vols small{font-family:var(--sans);font-size:max(12px,1.2em);color:#6c6a60;letter-spacing:.1em;margin-top:.6em}
+.cap{margin:2.2em 0 0;text-align:center;font-size:max(14px,1.6em);display:flex;flex-direction:column;gap:.3em}
+.cap a{font:700 1em var(--kai);border-bottom:2px solid var(--red);padding-bottom:1px;align-self:center}
+.cap a:hover{color:var(--red)}
+.cap span{font:400 .8em var(--sans);color:var(--mute)}
+
+/* 说明笺：放在两本书中间，摊在书案上的一张纸 */
+.guide{align-self:center;position:relative;background:#f3ecda;color:#1a1c20;padding:24px 24px 22px;transform:rotate(.5deg);
+  box-shadow:inset 0 0 0 5px #f3ecda,inset 0 0 0 6px rgba(20,20,20,.5),0 14px 26px -12px rgba(35,28,16,.55),0 2px 0 rgba(0,0,0,.08)}
+.guide h2{margin:0 0 10px;padding:0;border:0;font:900 1.45em/1.2 var(--kai);letter-spacing:.14em;display:flex;align-items:center;gap:10px;color:#1a1c20}
+.guide h2::before{content:"用";display:grid;place-items:center;width:28px;height:28px;background:#a8322a;color:#f7ece6;font:700 16px var(--kai);letter-spacing:0;border-radius:2px;transform:rotate(-4deg);flex:none}
+.guide ol{margin:0;padding:0 0 0 1.7em;list-style:cjk-decimal;font-size:.92em;line-height:1.65}
+.guide li{margin:7px 0;padding-left:.2em}
+.guide li::marker{color:#a8322a;font-family:var(--kai);font-weight:700}
+.guide b{color:#a8322a}
+.guide a{color:inherit}
+.guide a:hover b{text-decoration:underline}
+
+@media (max-width:1180px){
+  .desk{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .guide{grid-column:1 / -1;order:3;max-width:560px;justify-self:center}
+}
+@media (max-width:640px){
+  .desk{grid-template-columns:minmax(0,1fr);gap:44px}
+  .book.cw{margin-top:0}
+}
+@media (prefers-reduced-motion:reduce){.cover,.vols a{transition:none}}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>语境选义 · 字词练习 demo</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../practice.css">
+</head>
+<body>
+<div class="vmain">
+  <h1>语境选义</h1>
+  <p class="sub">看原文里的句子，选加点字词在这句里的意思。题目和选项都是从现有的注释自动生成的；选项里会优先放一个“同一个字、别处的另一个意思”，专门防只记一种意思。</p>
+  <div class="ctl">
+    <label>范围 <select id="scope"></select></label>
+    <label>题数 <select id="n"><option>10</option><option>20</option></select></label>
+    <label><input type="checkbox" id="wo"> 只练错题本（<span id="wn">0</span>）</label>
+    <span class="sp"></span>
+    <button class="primary" id="go">重新出题</button>
+  </div>
+  <div id="stage"></div>
+</div>
+<script src="../data/jx1.js"></script><script src="../data/jx2.js"></script><script src="../data/jx3.js"></script><script src="../data/jx4.js"></script><script src="../data/jx5.js"></script>
+<script src="../data/unit1.js"></script><script src="../data/unit2.js"></script><script src="../data/unit3.js"></script><script src="../data/unit4.js"></script><script src="../data/unit5.js"></script>
+<script src="../practice.js"></script>
+<script>
+V.chrome("mc.html");
+const $ = s => document.querySelector(s);
+const scope = V.scopeBox($("#scope"), () => { refresh(); start(); });
+const bank = V.items.filter(x => !x.long);          // 选项从整个题库里挑，范围小也凑得够
+let wrongMode = false;
+function refresh() {
+  $("#wn").textContent = Object.keys(V.store.wrong).filter(id => V.byId[id] && V.inScope(V.byId[id], scope())).length;
+}
+function start() {
+  const n = +$("#n").value; wrongMode = $("#wo").checked;
+  let pool = bank.filter(x => V.inScope(x, scope()));
+  if (wrongMode) pool = pool.filter(x => V.store.wrong[x.id]);
+  if (wrongMode && !pool.length) { $("#stage").innerHTML = '<div class="card">这个范围的错题本是空的，先去做几轮普通题吧。</div>'; return; }
+  const qs = V.sample(pool, n).map(x => V.meaningQuestion(x, bank)).filter(Boolean);
+  V.runQuiz($("#stage"), qs, {
+    onAnswer: (q, ok) => {
+      if (!ok) V.store.wrong[q.id] = (V.store.wrong[q.id] || 0) + 1;
+      else if (wrongMode) delete V.store.wrong[q.id];       // 错题本里的题答对一次就移出
+      V.save(); refresh();
+    },
+    actions: [{ label: "再来一轮", fn: start }, { label: "只练错题本", fn: () => { $("#wo").checked = true; start(); } }]
+  });
+}
+$("#go").onclick = start; $("#wo").onchange = start; $("#n").onchange = start;
+refresh(); start();
+</script>
+</body>
+</html>

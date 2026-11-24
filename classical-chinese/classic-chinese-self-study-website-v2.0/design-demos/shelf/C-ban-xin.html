@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="current" data-font="kai">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方向 C · 翻开的古籍</title>
+<style>
+:root{
+  --paper:#e7e0cd; --leaf:#f2ebd8; --mute:#6c6a60;
+  --kai:"Kaiti SC","STKaiti","KaiTi","楷体","BiauKai",serif;
+  --song:"Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;
+  --sans:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  --ft:var(--kai); --fb:var(--kai);
+  --noise:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .3  0 0 0 0 .25  0 0 0 0 .15  0 0 0 .5 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+[data-font="mix"]{--ft:var(--song);--fb:var(--sans)}
+[data-theme="current"]{--ink:#17191c;--rule:rgba(23,25,28,.30);--acc:#b3261e;--seal:#a8322a}
+[data-theme="indigo"]{--ink:#23405f;--rule:rgba(35,64,95,.34);--acc:#23405f;--seal:#a8322a}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--noise),var(--paper);background-blend-mode:multiply;color:var(--ink);font-family:var(--fb);min-height:100vh}
+a{color:inherit;text-decoration:none}
+
+.top{display:flex;align-items:center;gap:18px;padding:20px 44px 0;flex-wrap:wrap}
+.seal{width:58px;height:58px;background:var(--seal);color:#f7ece6;display:grid;place-items:center;font:700 20px/1.1 var(--ft);text-align:center;border-radius:3px}
+.top h1{margin:0;font:900 38px/1 var(--ft);letter-spacing:.2em}
+.top p{margin:4px 0 0;color:var(--mute);font-size:15px}
+.top .go{margin-left:auto;font:700 18px var(--ft);border-bottom:2px solid var(--seal);padding-bottom:2px}
+.top .go small{display:block;font:400 13px var(--fb);color:var(--mute)}
+
+/* ---- 一个翻开的跨页：右页《匠心》，左页《采文》（古籍从右往左读） ---- */
+.spread{display:grid;grid-template-columns:1fr 58px 1fr;width:min(1420px,98vw);margin:26px auto 90px;filter:drop-shadow(0 26px 24px rgba(40,30,12,.38))}
+.leaf{position:relative;height:486px;background:var(--noise),var(--leaf);background-blend-mode:multiply;overflow:hidden}
+.leaf.r{order:3;border-radius:2px 7px 7px 2px;box-shadow:inset 46px 0 46px -40px rgba(80,55,20,.55)}
+.gut{order:2}
+.leaf.l{order:1;border-radius:7px 2px 2px 7px;box-shadow:inset -46px 0 46px -40px rgba(80,55,20,.55)}
+/* 书页堆叠的边：翻开的书两侧露出的纸层 */
+.leaf.r::after,.leaf.l::after{content:"";position:absolute;top:0;bottom:0;width:6px;background:repeating-linear-gradient(90deg,rgba(120,95,50,.35) 0 1px,transparent 1px 3px)}
+.leaf.r::after{right:0}.leaf.l::after{left:0}
+.frame{position:absolute;inset:22px 14px;border:2.5px solid var(--ink)}
+.frame::before{content:"";position:absolute;inset:5px;border:1px solid var(--ink)}
+.cols{position:absolute;inset:14px 8px;display:flex;flex-direction:row-reverse}
+
+.bk{writing-mode:vertical-rl;flex:none;width:84px;display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:4px 4px;border-left:3px double var(--ink);transition:background .2s}
+.bk:hover{background:rgba(179,38,30,.08)}
+.bk b{display:block;font:900 50px/1.15 var(--ft);letter-spacing:.1em}
+.bk i{display:block;font:400 13.5px/1.25 var(--fb);font-style:normal;color:var(--mute);letter-spacing:.16em;padding-top:6px}
+.bk em{display:block;font:400 13px var(--fb);font-style:normal;color:var(--acc);letter-spacing:.08em;margin-top:2px;padding-top:6px}
+
+.col{flex:1;min-width:0;writing-mode:vertical-rl;padding:8px 0;border-left:1px solid var(--rule)}
+.col:last-child{border-left:0}
+.col h3{margin:0 3px 0 0;font:700 22px/1.2 var(--ft);letter-spacing:.12em}
+.col h3 a{display:block;padding:0 2px}
+.col h3 a:hover,.tx:hover{color:var(--acc)}
+.col h3 em{display:inline;font:400 14px var(--fb);font-style:normal;color:var(--acc);letter-spacing:.06em;margin-bottom:0;margin-right:0}
+.col h3 span{text-emphasis:filled dot var(--acc);-webkit-text-emphasis:filled dot var(--acc);text-emphasis-position:right;-webkit-text-emphasis-position:right}
+.tx{display:block;margin:0 0 0 1px;padding-top:48px;font:400 13px/1.2 var(--ft);letter-spacing:.04em;color:var(--ink)}
+.tx small{font-size:12px;color:var(--mute)}
+
+/* ---- 书口：象鼻、鱼尾、版心题 ---- */
+.gut{position:relative;background:linear-gradient(90deg,rgba(90,65,28,.30),rgba(255,250,235,.0) 22%,rgba(255,250,235,.0) 78%,rgba(90,65,28,.30)),var(--leaf);display:flex;flex-direction:column;align-items:center;padding:22px 0}
+.gut::before{content:"";position:absolute;left:50%;top:22px;bottom:22px;width:0;border-left:1px solid var(--rule)}
+.gut svg{width:30px;height:34px;flex:none;position:relative;z-index:1}
+.gut .nm{writing-mode:vertical-rl;font:700 26px/1.2 var(--ft);letter-spacing:.34em;margin:26px 0 20px;position:relative;z-index:1;background:var(--leaf);padding:8px 0;color:var(--ink)}
+.gut .pg{writing-mode:vertical-rl;font:400 14px var(--fb);color:var(--mute);letter-spacing:.2em;position:relative;z-index:1;background:var(--leaf);padding:6px 0;margin-top:auto;margin-bottom:22px}
+.stamp{position:absolute;left:34px;bottom:34px;width:50px;height:50px;background:var(--seal);color:#f7ece6;display:grid;place-items:center;font:700 17px/1.15 var(--ft);text-align:center;border-radius:2px;opacity:.93;transform:rotate(-3deg);box-shadow:0 0 0 2px rgba(168,50,42,.28)}
+.note{position:absolute;left:34px;bottom:34px;writing-mode:vertical-rl;font:400 13px/1.4 var(--fb);color:var(--acc);letter-spacing:.14em}
+
+.tw{position:fixed;right:18px;bottom:16px;z-index:9;background:rgba(246,241,226,.96);border:1px solid #17191c;box-shadow:3px 3px 0 #17191c;padding:10px 12px;font:13px var(--sans);display:grid;gap:6px;border-radius:3px;color:#17191c}
+.tw div{display:flex;gap:0;align-items:center}
+.tw span{color:var(--mute);margin-right:8px;min-width:2.2em}
+.tw button{font:13px var(--sans);border:1px solid #17191c;background:none;padding:3px 10px;margin-right:-1px;cursor:pointer;color:#17191c}
+.tw button.on{background:#17191c;color:#f3ecda}
+@media (max-width:980px){
+  .top{padding:16px 16px 0}.top h1{font-size:30px}.top .go{margin-left:0}
+  .spread{grid-template-columns:1fr;width:96vw;gap:20px;margin-top:20px;margin-bottom:140px}
+  .leaf.r,.leaf.l{order:initial;border-radius:6px}.gut{display:none}
+  .cols{overflow-x:auto}.col{flex:0 0 122px}.bk{position:sticky;right:0;background:var(--leaf);z-index:2}
+  .leaf{height:560px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="seal" href="../../index.html" aria-label="文言自学 首页">文言<br>自学</a>
+  <div><h1>文言自学</h1><p>IGCSE 0509 中文第一语言 · 文言文阅读自学</p></div>
+  <a class="go" href="../../index.html#/j4/huxinting/read">继续上次 →<small>湖心亭看雪 · 读原文</small></a>
+</header>
+<main class="spread" id="spread"></main>
+
+<div class="tw" role="group" aria-label="试一试">
+  <div><span>配色</span><button data-theme="indigo">古籍蓝</button><button data-theme="current" class="on">现有红黑</button></div>
+  <div><span>字体</span><button data-font="kai" class="on">全楷体</button><button data-font="mix">宋体标题</button></div>
+</div>
+
+<script src="../../data/jx1.js"></script><script src="../../data/jx2.js"></script><script src="../../data/jx3.js"></script><script src="../../data/jx4.js"></script><script src="../../data/jx5.js"></script>
+<script src="../../data/unit1.js"></script><script src="../../data/unit2.js"></script><script src="../../data/unit3.js"></script><script src="../../data/unit4.js"></script><script src="../../data/unit5.js"></script>
+<script>
+const NUM = "一二三四五六七八九十", cn = n => n <= 10 ? NUM[n - 1] : n < 20 ? "十" + NUM[n - 11] : NUM[Math.floor(n / 10) - 1] + "十" + (n % 10 ? NUM[n % 10 - 1] : ""), H = p => "../../index.html#/" + p;
+const short = t => t.title.replace(/（.*?）/g, "").replace(/^拓展：/, "拓展·");
+const BOOKS = [
+  { id: "jiangxin", name: "匠心", tag: "课堂教材", units: window.JIANGXIN_UNITS || [], side: "r" },
+  { id: "caiwen", name: "采文", tag: "自学拓展", units: window.CAIWEN_UNITS || [], side: "l" }
+];
+const fish = flip => `<svg viewBox="0 0 30 34" aria-hidden="true" style="${flip ? "transform:scaleY(-1)" : ""}"><path d="M1 0H29V20L15 32L1 20Z" fill="var(--ink)"/><path d="M6 0L15 9L24 0Z" fill="var(--leaf)"/></svg>`;
+function leaf(b) {
+  const n = b.units.reduce((s, u) => s + u.texts.length, 0);
+  return `<section class="leaf ${b.side}" aria-label="《${b.name}》">
+    <div class="frame"></div>
+    <div class="cols">
+      <a class="bk" href="${H("b/" + b.id)}" aria-label="进入《${b.name}》"><b>${b.name}</b><i>${b.tag}　共${cn(b.units.length)}册${cn(n)}篇</i></a>
+      ${b.units.map((u, k) => `<div class="col"><h3><a href="${H(u.id)}"><em>卷${NUM[k]}</em><span>${u.title}</span></a></h3>${u.texts.map(t => `<a class="tx" href="${H(u.id + "/" + t.id)}">${short(t)}</a>`).join("")}</div>`).join("")}
+    </div>
+    ${b.side === "l" ? '<span class="stamp">文言<br>自学</span>' : '<span class="note">点标题进入单元，点小字直接读这一篇</span>'}
+  </section>`;
+}
+document.getElementById("spread").innerHTML = leaf(BOOKS[0]) +
+  `<div class="gut" aria-hidden="true">${fish(false)}<span class="nm">文言自学</span><span class="pg">卷首</span>${fish(true)}</div>` + leaf(BOOKS[1]);
+document.querySelectorAll(".tw button").forEach(btn => btn.onclick = () => {
+  const k = btn.dataset.theme ? "theme" : "font", v = btn.dataset[k];
+  document.documentElement.dataset[k] = v;
+  document.querySelectorAll(".tw button[data-" + k + "]").forEach(x => x.classList.toggle("on", x === btn));
+});
+</script>
+</body>
+</html>

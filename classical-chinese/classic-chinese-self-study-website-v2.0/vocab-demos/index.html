@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>字词练习 demo · 总览</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../practice.css">
+</head>
+<body>
+<div class="vmain">
+  <div class="hero">
+    <div>
+      <h1>字词练习 demo</h1>
+      <p class="sub">八种练法，题目全部由网站现有的注释和词语表自动生成，没有新写一道题。先玩一玩，看哪种顺手、哪里要改。</p>
+    </div>
+    <div class="facts" id="facts"></div>
+  </div>
+
+  <h2>已经做好的八个 demo</h2>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr))">
+    <a class="demo" href="mc.html">
+      <div class="k">选择题</div><h3>语境选义</h3>
+      <p>看原文句子，选加点字的意思。选项里混进“同字异义”，防止只背一种解释。答错自动进错题本。</p>
+      <div class="eg">“予<span class="tg">贸</span>得其一”　○ 买　○ 交换　○ 贸易　○ 换取</div>
+    </a>
+    <a class="demo" href="cards.html">
+      <div class="k">字卡 · 间隔重复</div><h3>字卡</h3>
+      <p>翻面核对后自评“记得/模糊/不记得”，按 1、3、7、14 天安排下次复习。可切成“看释义想字”。</p>
+      <div class="eg">正面：<span class="tg">鬻</span>　→　翻面：yù，买</div>
+    </a>
+    <a class="demo" href="match.html">
+      <div class="k">小游戏</div><h3>配对</h3>
+      <p>左边 6 个字词、右边 6 个意思，点两下配对，计时、记失误、有最快纪录。选中字词会显示原句。</p>
+      <div class="eg">涉　↔　经历　　　怪　↔　认为……奇怪</div>
+    </a>
+    <a class="demo" href="usage.html">
+      <div class="k">选择题</div><h3>用法辨析</h3>
+      <p>活用·通假 / 虚词 / 特殊句式三种。不问意思，问“这是哪种用法”，对应考试里的语法点。</p>
+      <div class="eg">“吾<span class="tg">业</span>是有年矣”　○ 名词作动词　○ 意动用法　○ 通假字</div>
+    </a>
+    <a class="demo" href="sort.html">
+      <div class="k">新 · 归类</div><h3>归类</h3>
+      <p>一堆句子卡，先选卡再选篮子。专攻“之”是代词还是助词，也可以混合各种虚词。放进同一篮子的句子可以对照找规律。</p>
+      <div class="eg">篮子：代词（换成“他/它”）｜结构助词（换成“的”）</div>
+    </a>
+    <a class="demo" href="find.html">
+      <div class="k">新 · 无选项</div><h3>点字</h3>
+      <p>只告诉你“这句里有一个意动用法的字”，自己把它点出来。没有选项，更接近真题里“找出句中的……”。</p>
+      <div class="eg">予 怪 而 问 之 曰 ……　→　点“怪”</div>
+    </a>
+    <a class="demo" href="daily.html">
+      <div class="k">新 · 打卡</div><h3>每日一练</h3>
+      <p>每天固定 10 题混合题型，由日期决定，全班同一天做同一套。记录连续打卡天数和最近 14 天。</p>
+      <div class="eg">5 选义 + 2 活用 + 2 虚词 + 1 句式</div>
+    </a>
+    <a class="demo" href="print.html">
+      <div class="k">新 · 课堂用</div><h3>打印小测</h3>
+      <p>选范围和题型，生成一页纸小测（选择、解释加点字、配对），附答案页，点“打印”即可。每次生成的题不同。</p>
+      <div class="eg">文言字词小测　姓名＿＿＿　得分＿＿／21</div>
+    </a>
+  </div>
+
+  <h2>还可以做什么（想要哪个告诉我）</h2>
+  <div class="card">
+    <div class="idea"><b>读音辨析</b><span>“好酒”读 hào 还是 hǎo？“着”读 zhuó 还是 zháo？选读音，专攻多音字。</span><span class="need">要补：各多音字的备选读音（现有数据只有一个读音）。</span></div>
+    <div class="idea"><b>填空补全</b><span>给一句译文，原文里挖掉关键字，从词库里选或打字补上。</span><span class="need">要补：逐句译文（现在译文是整段的）。</span></div>
+    <div class="idea"><b>翻译选句</b><span>给一句原文，从四个译文里选最准确的，错误选项是常见的字词误译。</span><span class="need">要补：逐句译文和误译选项（可由我草拟、你审定）。</span></div>
+    <div class="idea"><b>从原文页加入字卡</b><span>读原文时点红点字词，旁边多一个“加入字卡”按钮，直接进复习队列。</span><span class="need">要改主站 app.js 的注释气泡，不需要新数据。</span></div>
+    <div class="idea"><b>每单元掌握度</b><span>把字卡和错题的记录汇总成“这个单元我掌握了多少”的进度条，放在单元页。</span><span class="need">不需要新数据，要改主站。</span></div>
+  </div>
+
+  <h2>现在的限制</h2>
+  <div class="card">
+    <ul class="steps">
+      <li><b>选项质量：</b>干扰项是从其它注释里自动挑的，偶尔会不够“像”，或意思碰巧也说得通。正式上线前建议按单元过一遍，对不好的题手工指定干扰项。</li>
+      <li><b>注释是否适合出题：</b>有些注释本身较长或是人名地名，已自动排除（约 30 条不出选择题，但仍可做字卡）。</li>
+      <li><b>句式题：</b>一个句子可能同时属于几种句式（比如既是宾语前置又是反问）。题里只考词语表标的那一种，复合类型已排除。</li>
+      <li><b>学习记录：</b>存在浏览器里（键名 <code>caiwen.vocab.v1</code>），和网站原有记录分开，换设备或清缓存会丢。</li>
+      <li><b>已接入主站：</b>这 8 种活动现在都在主站里（侧栏“练习”、单元页“本单元综合练习”、每篇文章的“字词”标签、首页的每日一练）。这里的 demo 页面保留作对照，之后可以删掉。</li>
+    </ul>
+  </div>
+</div>
+<script src="../data/jx1.js"></script><script src="../data/jx2.js"></script><script src="../data/jx3.js"></script><script src="../data/jx4.js"></script><script src="../data/jx5.js"></script>
+<script src="../data/unit1.js"></script><script src="../data/unit2.js"></script><script src="../data/unit3.js"></script><script src="../data/unit4.js"></script><script src="../data/unit5.js"></script>
+<script src="../practice.js"></script>
+<script>
+V.chrome("index.html");
+const u = V.usage, n = V.items.filter(x => !x.long).length;
+document.getElementById("facts").innerHTML =
+  '<span><b>' + V.items.length + '</b>字卡 / 词条</span><span><b>' + n + '</b>可出选择题</span>' +
+  '<span><b>' + u.use.length + '</b>活用·通假</span><span><b>' + u.xu.length + '</b>虚词</span><span><b>' + u.ju.length + '</b>句式</span>';
+</script>
+</body>
+</html>
