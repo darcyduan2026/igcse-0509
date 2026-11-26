@@ -1,0 +1,66 @@
+# Publishes ONLY the classical-Chinese self-study website to GitHub Pages.
+# The rest of the repo (slides, lesson plans, textbook scans) is never uploaded.
+#
+# Site:     https://darcyduan2026.github.io/igcse-0509/wenyan/      (v2.0)
+#           https://darcyduan2026.github.io/igcse-0509/wenyan/v1/   (original)
+# One-time setup: repo Settings → Pages → Source: "GitHub Actions".
+
+name: Publish website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "classical-chinese/classic-chinese-self-study-website/**"
+      - "classical-chinese/classic-chinese-self-study-website-v2.0/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          SRC=classical-chinese
+          mkdir -p _site/wenyan/v1
+          cp -R "$SRC/classic-chinese-self-study-website-v2.0/." _site/wenyan/
+          cp -R "$SRC/classic-chinese-self-study-website/." _site/wenyan/v1/
+          # v2.0's "回到原版" link points at the sibling folder; repoint it to v1/
+          sed -i 's#\.\./classic-chinese-self-study-website/#v1/#g' _site/wenyan/index.html
+          # internal notes and macOS files are not part of the site
+          find _site -name README.md -delete
+          find _site -name .DS_Store -delete
+          # the bare /igcse-0509/ address forwards to the site
+          cat > _site/index.html <<'EOF'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>文言自学</title>
+          <meta http-equiv="refresh" content="0; url=wenyan/">
+          <link rel="canonical" href="wenyan/">
+          <a href="wenyan/">文言自学网站</a>
+          EOF
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}wenyan/
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
