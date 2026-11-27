@@ -336,7 +336,7 @@
     const P = window.V, sc = `t:${u.id}.${t.id}`, pg = P.progress(sc), st = pg.steps;
     const steps = [
       { k: "cards", name: "字卡", desc: "先把这篇的字词过一遍：看字和例句，想意思，翻面核对。", stat: `已学 ${pg.learned} / ${pg.total}`, done: pg.total > 0 && pg.learned >= pg.total, ok: pg.total > 0, btn: pg.learned ? "继续" : "开始" },
-      { k: "match", name: "配对", desc: "把字词和意思连起来，计时，看能不能刷新本篇纪录。", stat: st.match ? `最快 ${st.match.best} 秒` : "还没做", done: !!st.match, ok: pg.quiz >= 6, btn: st.match ? "再来" : "开始" },
+      { k: "match", name: "配对", desc: "把字词和意思连起来，计时，看能不能刷新本篇纪录。", stat: st.match ? `最快 ${Number(st.match.best).toFixed(1)} 秒` : "还没做", done: !!st.match, ok: pg.quiz >= 6, btn: st.match ? "再来" : "开始" },
       { k: "mc", name: "选义", desc: `在原文句子里选加点字词的意思，${Math.min(10, pg.quiz)} 题。选项里混着同一个字在别处的意思。`, stat: st.mc ? `上次 ${st.mc.score} / ${st.mc.n}` : "还没做", done: !!st.mc, ok: pg.quiz >= 4, btn: st.mc ? "再来" : "开始" },
       { k: "use", name: "用法", desc: "不问意思，问是哪种用法：活用、通假、虚词、句式。", stat: st.use ? `上次 ${st.use.score} / ${st.use.n}` : `本篇可出 ${pg.useN} 题`, done: !!st.use, ok: pg.useN >= 3, btn: st.use ? "再来" : "开始" }
     ].filter(s => s.k !== "use" || s.ok);                 // 用法题太少的篇不显示这一关

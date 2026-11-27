@@ -357,17 +357,18 @@
     if (pairs.length < 3) { el.innerHTML = `<div class="card">这一篇可配对的字词太少。<div class="row"><button id="exit">返回</button></div></div>`; el.querySelector("#exit").onclick = () => opts.onExit && opts.onExit(); return; }
     const key = "match" + pairs.length, best = store.best[sc + "." + key];
     el.innerHTML = `
-      <div class="mhead"><span>用时 <b class="tm">0</b> 秒</span><span>失误 <b class="er">0</b></span><span>已配 <b class="dn">0</b> / ${pairs.length}</span>${best ? `<span>本篇最快 ${best} 秒</span>` : ""}</div>
+      <div class="mhead"><span>用时 <b class="tm">0.0</b> 秒</span><span>失误 <b class="er">0</b></span><span>已配 <b class="dn">0</b> / ${pairs.length}</span>${best ? `<span>本篇最快 ${Number(best).toFixed(1)} 秒</span>` : ""}</div>
       <div class="mgrid"><div class="mcol L">${shuffle(pairs).map(x => `<button class="mcell wd" data-id="${x.id}">${e(x.w)}${x.py ? `<small>${e(x.py)}</small>` : ""}</button>`).join("")}</div>
       <div class="mcol R">${shuffle(pairs).map(x => `<button class="mcell" data-id="${x.id}">${e(x.core)}</button>`).join("")}</div></div>
       <div class="mctx">先点左边的字词。选中后这里会显示它在原文里的句子。</div><div class="res"></div>
       <div class="row"><button class="exit">返回</button></div>`;
     const q = s => el.querySelector(s);
     let selL = null, selR = null, done = 0, err = 0, t0 = 0, timer = null;
+    const secs = () => Math.floor((Date.now() - t0) / 100) / 10;  // 0.1 s precision, shared by live timer and result
     q(".exit").onclick = () => { clearInterval(timer); opts.onExit && opts.onExit(); };
     function choose(side, b) {
       if (b.classList.contains("done")) return;
-      if (!t0) { t0 = Date.now(); timer = setInterval(() => { if (!el.isConnected) { clearInterval(timer); return; } q(".tm").textContent = Math.floor((Date.now() - t0) / 1000); }, 500); }
+      if (!t0) { t0 = Date.now(); timer = setInterval(() => { if (!el.isConnected) { clearInterval(timer); return; } q(".tm").textContent = secs().toFixed(1); }, 100); }
       el.querySelectorAll(side === "L" ? ".L .sel" : ".R .sel").forEach(x => x.classList.remove("sel"));
       b.classList.add("sel");
       if (side === "L") { selL = b; const x = byId[b.dataset.id]; q(".mctx").innerHTML = html(x) + `　<small>《${e(x.src)}》</small>`; } else selR = b;
@@ -377,10 +378,10 @@
         [A, B].forEach(x => { x.classList.remove("sel"); x.classList.add("done"); }); done++; q(".dn").textContent = done;
         const x = byId[A.dataset.id]; q(".mctx").innerHTML = html(x) + `　<small>${e(x.note)}</small>`;
         if (done === pairs.length) {
-          clearInterval(timer); const s = Math.max(1, Math.round((Date.now() - t0) / 1000));
+          clearInterval(timer); const s = Math.max(0.1, secs()); q(".tm").textContent = s.toFixed(1);
           const nb = !store.best[sc + "." + key] || s < store.best[sc + "." + key]; if (nb) { store.best[sc + "." + key] = s; }
           mark(sc, "match", { best: store.best[sc + "." + key], err }); opts.onDone && opts.onDone();
-          q(".res").innerHTML = `<div class="qcard"><div class="score"><span class="big">${s} 秒</span><span>失误 ${err} 次${nb ? "，刷新了本篇纪录！" : ""}</span></div><div class="row"><button class="primary again">再来一组</button></div></div>`;
+          q(".res").innerHTML = `<div class="qcard"><div class="score"><span class="big">${s.toFixed(1)} 秒</span><span>失误 ${err} 次${nb ? "，刷新了本篇纪录！" : ""}</span></div><div class="row"><button class="primary again">再来一组</button></div></div>`;
           q(".again").onclick = () => runMatch(el, sc, opts);
         }
       } else {
